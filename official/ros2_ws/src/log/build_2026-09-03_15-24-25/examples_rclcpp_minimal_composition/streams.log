@@ -1,0 +1,56 @@
+[0.033s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[0.761s] -- The C compiler identification is GNU 13.3.0
+[0.761s] -- The CXX compiler identification is GNU 13.3.0
+[0.761s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.761s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.761s] -- Detecting C compile features
+[0.761s] -- Detecting C compile features - done
+[0.761s] -- Detecting CXX compiler ABI info
+[0.761s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.761s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.761s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.761s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.761s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.761s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.761s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.761s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.761s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.761s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.762s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Found rclcpp_components: 28.1.21 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.762s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.762s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.804s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.804s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.804s] -- Configured cppcheck include dirs: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[0.804s] -- Configured cppcheck exclude dirs and/or files: 
+[0.804s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.804s] -- Configured cpplint exclude dirs and/or files: 
+[0.804s] -- Added test 'lint_cmake' to check CMake code style
+[0.809s] -- Added test 'uncrustify' to check C / C++ code style
+[0.809s] -- Configured uncrustify additional arguments: 
+[0.809s] -- Added test 'xmllint' to check XML markup files
+[0.809s] -- Configuring done (0.8s)
+[0.833s] -- Generating done (0.0s)
+[0.840s] -- Build files have been written to: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[0.857s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[0.857s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[174.813s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[174.823s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[213.766s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[213.942s] [ 33%] Built target composition_nodes
+[213.959s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[215.293s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[215.381s] [ 55%] Built target composition_publisher
+[215.397s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[216.437s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[216.508s] [ 77%] Built target composition_composed
+[216.519s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[217.532s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[217.606s] [100%] Built target composition_subscriber

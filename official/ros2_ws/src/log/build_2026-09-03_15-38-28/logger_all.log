@@ -1,0 +1,948 @@
+[0.153s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xea2d79117800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xea2d79117500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xea2d79117500>>, mixin_verb=('build',))
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(examples/launch_testing/launch_testing_examples) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/launch_testing/launch_testing_examples' with type 'ros.ament_python' and name 'launch_testing_examples'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_client) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/actions/minimal_action_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_client'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/actions/minimal_action_server) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/actions/minimal_action_server' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_action_server'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/composition/minimal_composition) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/composition/minimal_composition' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_composition'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/cbg_executor) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/executors/cbg_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_cbg_executor'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/executors/multithreaded_executor) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/executors/multithreaded_executor' with type 'ros.ament_cmake' and name 'examples_rclcpp_multithreaded_executor'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/async_client) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/services/async_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_async_client'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_client) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/services/minimal_client' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_client'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/services/minimal_service) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/services/minimal_service' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_service'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/timers/minimal_timer) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/timers/minimal_timer' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_timer'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_publisher) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/topics/minimal_publisher' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_publisher'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/topics/minimal_subscriber) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/topics/minimal_subscriber' with type 'ros.ament_cmake' and name 'examples_rclcpp_minimal_subscriber'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclcpp/wait_set) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclcpp/wait_set' with type 'ros.ament_cmake' and name 'examples_rclcpp_wait_set'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_client) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/actions/minimal_action_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_client'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/actions/minimal_action_server) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/actions/minimal_action_server' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_server'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/executors) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/executors' with type 'ros.ament_python' and name 'examples_rclpy_executors'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/guard_conditions) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/guard_conditions' with type 'ros.ament_python' and name 'examples_rclpy_guard_conditions'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_client) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/services/minimal_client' with type 'ros.ament_python' and name 'examples_rclpy_minimal_client'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/services/minimal_service) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/services/minimal_service' with type 'ros.ament_python' and name 'examples_rclpy_minimal_service'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_publisher) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/topics/minimal_publisher' with type 'ros.ament_python' and name 'examples_rclpy_minimal_publisher'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/minimal_subscriber) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/topics/minimal_subscriber' with type 'ros.ament_python' and name 'examples_rclpy_minimal_subscriber'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(examples/rclpy/topics/pointcloud_publisher) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'examples/rclpy/topics/pointcloud_publisher' with type 'ros.ament_python' and name 'examples_rclpy_pointcloud_publisher'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_async_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_async_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/async_client', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_cbg_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_cbg_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_cbg_executor', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_client', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_client', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_server', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_client', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_composition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_composition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_publisher', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_service', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_subscriber', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_minimal_timer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_minimal_timer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_multithreaded_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_multithreaded_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_multithreaded_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_multithreaded_executor', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclcpp_wait_set' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclcpp_wait_set' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_wait_set', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_wait_set', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/wait_set', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_executors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_executors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_executors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_executors', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/executors', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_guard_conditions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_guard_conditions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_guard_conditions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_guard_conditions', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/guard_conditions', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_action_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_action_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_action_client', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/actions/minimal_action_client', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_action_server', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/actions/minimal_action_server', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_client', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/services/minimal_client', 'symlink_install': False, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_publisher', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/topics/minimal_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_service', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/services/minimal_service', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_minimal_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_minimal_subscriber', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/topics/minimal_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_pointcloud_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_pointcloud_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclpy_pointcloud_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclpy_pointcloud_publisher', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'launch_testing_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/launch_testing_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/launch_testing_examples', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/launch_testing/launch_testing_examples', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/turtlesim', 'merge_install': False, 'path': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.257s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/async_client' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/async_client'
+[0.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_client' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_client'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_server' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/actions/minimal_action_server'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_client' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_client'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/composition/minimal_composition'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client -- -j6 -l6
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client -- -j6 -l6
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client -- -j6 -l6
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[0.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server
+[0.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_async_client)
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client' for CMake module files
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client' for CMake config files
+[0.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_async_client', 'cmake_prefix_path')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.ps1'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.sh'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/bin'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib/pkgconfig/examples_rclcpp_async_client.pc'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib/python3.12/site-packages'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/bin'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.zsh'
+[0.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/colcon-core/packages/examples_rclcpp_async_client)
+[0.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_async_client)
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client' for CMake module files
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client' for CMake config files
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_async_client', 'cmake_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/hook/cmake_prefix_path.sh'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/bin'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib/pkgconfig/examples_rclcpp_async_client.pc'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib/python3.12/site-packages'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/bin'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.sh'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.bash'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/colcon-core/packages/examples_rclcpp_async_client)
+[0.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_publisher' with build type 'ament_cmake'
+[0.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_publisher'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_action_server)
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server' for CMake module files
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server' for CMake config files
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_action_server', 'cmake_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.dsv'
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.sh'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/bin'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/pkgconfig/examples_rclcpp_minimal_action_server.pc'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/python3.12/site-packages'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/bin'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.sh'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.zsh'
+[0.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/colcon-core/packages/examples_rclcpp_minimal_action_server)
+[0.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_action_server)
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server' for CMake module files
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server' for CMake config files
+[0.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_action_server', 'cmake_prefix_path')
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/hook/cmake_prefix_path.sh'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/bin'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/pkgconfig/examples_rclcpp_minimal_action_server.pc'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/python3.12/site-packages'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/bin'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.sh'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.bash'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.zsh'
+[0.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/colcon-core/packages/examples_rclcpp_minimal_action_server)
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client -- -j6 -l6
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j6 -l6
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[0.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_service' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_service'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j6 -l6
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_client)
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_client', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.dsv'
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/bin'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib/pkgconfig/examples_rclcpp_minimal_client.pc'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib/python3.12/site-packages'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.sh'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.bash'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.zsh'
+[0.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/colcon-core/packages/examples_rclcpp_minimal_client)
+[0.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_client)
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client' for CMake module files
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client' for CMake config files
+[0.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_client', 'cmake_prefix_path')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.dsv'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/hook/cmake_prefix_path.sh'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/bin'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib/pkgconfig/examples_rclcpp_minimal_client.pc'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib/python3.12/site-packages'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.bash'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.zsh'
+[0.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/colcon-core/packages/examples_rclcpp_minimal_client)
+[0.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber' with build type 'ament_cmake'
+[0.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber'
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_composition)
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition' for CMake module files
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition' for CMake config files
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_composition', 'cmake_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib'
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_composition', 'ld_library_path_lib')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/pkgconfig/examples_rclcpp_minimal_composition.pc'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/python3.12/site-packages'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.sh'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.bash'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.zsh'
+[0.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/colcon-core/packages/examples_rclcpp_minimal_composition)
+[0.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_composition)
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition' for CMake module files
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition' for CMake config files
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_composition', 'cmake_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclcpp_minimal_composition', 'ld_library_path_lib')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/hook/ld_library_path_lib.sh'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/bin'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/pkgconfig/examples_rclcpp_minimal_composition.pc'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/python3.12/site-packages'
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/colcon-core/packages/examples_rclcpp_minimal_composition)
+[0.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer' with build type 'ament_cmake'
+[0.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer'
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber -- -j6 -l6
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[96.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j6 -l6
+[96.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service
+[97.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[97.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclcpp_minimal_timer)
+[97.198s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer' for CMake module files
+[97.219s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer' for CMake config files
+[97.243s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/bin'
+[97.245s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/pkgconfig/examples_rclcpp_minimal_timer.pc'
+[97.272s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/lib/python3.12/site-packages'
+[97.272s] Level 1:colcon.colcon_core.environment:checking '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/bin'
+[97.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.ps1'
+[97.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv'
+[97.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.sh'
+[97.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.bash'
+[97.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.zsh'
+[97.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer/share/colcon-core/packages/examples_rclcpp_minimal_timer)
+[208.838s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[208.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[208.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[208.870s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[209.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[209.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[209.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[209.249s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[209.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/local_setup.ps1'
+[209.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/_local_setup_util_ps1.py'
+[209.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/setup.ps1'
+[209.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/local_setup.sh'
+[209.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/_local_setup_util_sh.py'
+[209.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/setup.sh'
+[209.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/local_setup.bash'
+[209.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/setup.bash'
+[209.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/local_setup.zsh'
+[209.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/setup.zsh'

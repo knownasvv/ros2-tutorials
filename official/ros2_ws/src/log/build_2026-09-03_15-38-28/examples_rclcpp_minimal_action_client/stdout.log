@@ -1,0 +1,6 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[ 50%] Built target action_client_not_composable
+[ 75%] Built target action_client_not_composable_with_cancel
+[ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[ 87%] Built target action_client_member_functions

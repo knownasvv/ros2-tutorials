@@ -1,0 +1,1 @@
+/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-aa74795c77b12ccdd248.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_minimal_publisher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_minimal_publisher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_minimal_publisher_uninstall-Debug-2f95bfe7b4bb099c677a.json",
+					"name" : "examples_rclcpp_minimal_publisher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_lambda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_lambda-Debug-570447607072d8a1dd50.json",
+					"name" : "publisher_lambda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function-Debug-1b3d1bf3575f2b2b9f9d.json",
+					"name" : "publisher_member_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function_with_type_adapter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function_with_type_adapter-Debug-820bee92a23ff84fc58f.json",
+					"name" : "publisher_member_function_with_type_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_member_function_with_unique_network_flow_endpoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_member_function_with_unique_network_flow_endpoints-Debug-8d567e2401bbe2175601.json",
+					"name" : "publisher_member_function_with_unique_network_flow_endpoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_not_composable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_not_composable-Debug-b3e34b1b4f1239ba0a28.json",
+					"name" : "publisher_not_composable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_wait_for_all_acked::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_wait_for_all_acked-Debug-23297a6f8637389a2212.json",
+					"name" : "publisher_wait_for_all_acked",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-c83e311a7cf08e8dc6c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_publisher",
+		"source" : "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/topics/minimal_publisher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

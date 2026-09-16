@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j6 -l6
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[93.979s] [100%] [32m[1mLinking CXX executable service_main[0m
+[95.851s] [100%] Built target service_main
+[96.287s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service -- -j6 -l6
+[96.436s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service
+[96.571s] -- Install configuration: ""
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[96.578s] -- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[96.578s] -- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml

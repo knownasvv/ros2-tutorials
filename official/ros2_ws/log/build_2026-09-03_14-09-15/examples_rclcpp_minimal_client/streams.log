@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client
+[0.145s] -- The C compiler identification is GNU 13.3.0
+[0.250s] -- The CXX compiler identification is GNU 13.3.0
+[0.267s] -- Detecting C compiler ABI info
+[0.336s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.582s] -- Found example_interfaces: 0.12.1 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.615s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.636s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.711s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.727s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.729s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.758s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.767s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.830s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.925s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.925s] -- Configured cppcheck include dirs: 
+[0.926s] -- Configured cppcheck exclude dirs and/or files: 
+[0.926s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.926s] -- Configured cpplint exclude dirs and/or files: 
+[0.926s] -- Added test 'lint_cmake' to check CMake code style
+[0.926s] -- Added test 'uncrustify' to check C / C++ code style
+[0.926s] -- Configured uncrustify additional arguments: 
+[0.926s] -- Added test 'xmllint' to check XML markup files
+[0.929s] -- Configuring done (0.9s)
+[0.932s] -- Generating done (0.0s)
+[0.936s] -- Build files have been written to: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client
+[0.951s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client
+[0.951s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client -- -j6 -l6
+[0.979s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[151.409s] [100%] [32m[1mLinking CXX executable client_main[0m
+[151.705s] [100%] Built target client_main
+[152.060s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client -- -j6 -l6
+[152.313s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client
+[193.867s] -- Install configuration: ""
+[193.874s] -- Execute custom install script
+[193.875s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[193.876s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[193.876s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[193.877s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[193.877s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[193.878s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[194.136s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_client

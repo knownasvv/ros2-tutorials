@@ -1,0 +1,60 @@
+[0.018s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_cbg_executor
+[0.130s] -- The C compiler identification is GNU 13.3.0
+[0.174s] -- The CXX compiler identification is GNU 13.3.0
+[0.184s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.499s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.518s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.524s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.573s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.616s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.625s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.636s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.675s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.734s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.735s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.735s] -- Configured cppcheck include dirs: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[0.735s] -- Configured cppcheck exclude dirs and/or files: 
+[0.737s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.737s] -- Configured cpplint exclude dirs and/or files: 
+[0.737s] -- Added test 'lint_cmake' to check CMake code style
+[0.738s] -- Added test 'uncrustify' to check C / C++ code style
+[0.738s] -- Configured uncrustify additional arguments: 
+[0.738s] -- Added test 'xmllint' to check XML markup files
+[0.739s] -- Configuring done (0.7s)
+[0.750s] -- Generating done (0.0s)
+[0.756s] -- Build files have been written to: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor
+[0.772s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_cbg_executor
+[0.773s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.805s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.814s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[0.814s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.814s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.814s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[0.818s] [ 60%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[121.830s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[121.850s] compilation terminated.
+[121.854s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:104: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Error 1
+[121.854s] gmake[2]: *** Waiting for unfinished jobs....
+[153.792s] [ 70%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[199.606s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[199.978s] [ 80%] Built target pong
+[213.355s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Error 2
+[213.356s] gmake[1]: *** Waiting for unfinished jobs....
+[214.495s] [ 90%] [32m[1mLinking CXX executable ping[0m
+[214.641s] [ 90%] Built target ping
+[214.649s] gmake: *** [Makefile:146: all] Error 2

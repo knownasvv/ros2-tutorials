@@ -1,0 +1,26 @@
+[0.922s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/executors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/build install --record /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data
+[0.996s] running egg_info
+[0.999s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[0.999s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[1.000s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[1.000s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[1.000s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[1.009s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.011s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.011s] running build_py
+[1.013s] running install
+[1.013s] running install_lib
+[1.017s] running install_data
+[1.017s] running install_egg_info
+[1.023s] removing '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages/examples_rclpy_executors-0.19.7-py3.12.egg-info' (and everything under it)
+[1.025s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages/examples_rclpy_executors-0.19.7-py3.12.egg-info
+[1.026s] running install_scripts
+[1.077s] Installing callback_group script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] Installing composed script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] Installing custom_callback_group script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] Installing custom_executor script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] Installing listener script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] Installing talker script to /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.077s] writing list of installed files to '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/install.log'
+[1.128s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/executors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/build install --record /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed install_data

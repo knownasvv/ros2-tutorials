@@ -1,0 +1,17 @@
+[0.170s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/actions/minimal_action_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.318s] [1m============================= test session starts ==============================[0m
+[0.318s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.322s] cachedir: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache
+[0.323s] rootdir: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy
+[0.323s] configfile: pytest.ini
+[0.323s] plugins: ament-lint-0.17.5, ament-copyright-0.17.5, launch-testing-3.4.11, ament-pep257-0.17.5, launch-testing-ros-0.26.12, ament-xmllint-0.17.5, ament-flake8-0.17.5, None-None, cov-4.1.0, colcon-core-0.21.1, rerunfailures-12.0
+[0.391s] [1mcollecting ... [0m[1m
+[0.391s] collected 3 items                                                              [0m
+[0.391s] 
+[0.515s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[0.660s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[0.678s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[0.678s] 
+[0.678s] - generated xml file: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml -
+[0.678s] [32m============================== [32m[1m3 passed[0m[32m in 0.36s[0m[32m ===============================[0m
+[0.741s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

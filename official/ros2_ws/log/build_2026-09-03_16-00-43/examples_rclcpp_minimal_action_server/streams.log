@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[0.088s] [ 50%] Built target action_server_not_composable
+[0.099s] [100%] Built target action_server_member_functions
+[0.109s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j6 -l6
+[0.110s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server
+[0.115s] -- Install configuration: "Debug"
+[0.118s] -- Execute custom install script
+[0.119s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[0.119s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[0.122s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[0.122s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[0.123s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[0.124s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[0.124s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[0.124s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[0.125s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[0.125s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[0.126s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[0.127s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[0.127s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[0.132s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[0.133s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[0.133s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[0.135s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[0.177s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_server

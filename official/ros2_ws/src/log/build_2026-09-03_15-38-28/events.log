@@ -1,0 +1,2357 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000108] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000116] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000121] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000126] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000135] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000195] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000218] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000223] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000227] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.000231] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.000242] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.000246] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.000250] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.000260] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000263] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000267] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.000270] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000274] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.000279] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000283] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.000287] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.000290] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000770] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.006435] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.008739] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.012025] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.013281] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.015338] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.017908] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.020266] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'build'}
+[0.020300] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.024833] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.026320] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'build'}
+[0.026339] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_cbg_executor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.027131] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[0.027776] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'build'}
+[0.027834] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.028941] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[0.029865] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'build'}
+[0.030213] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.040885] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'cmake'}
+[0.041824] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'build'}
+[0.042677] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.043697] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'cmake'}
+[0.045065] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'build'}
+[0.045082] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.091263] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o\x1b[0m\n'}
+[0.097679] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o\x1b[0m\n'}
+[0.097929] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 50%] Built target action_client_not_composable\n'}
+[0.100126] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[ 50%] Built target action_server_not_composable\n'}
+[0.100225] (-) TimerEvent: {}
+[0.100291] (examples_rclcpp_async_client) StdoutLine: {'line': b'[100%] Built target client_main\n'}
+[0.104019] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 75%] Built target action_client_not_composable_with_cancel\n'}
+[0.105660] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 30%] Built target pong\n'}
+[0.105814] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 60%] Built target ping\n'}
+[0.116121] (examples_rclcpp_async_client) CommandEnded: {'returncode': 0}
+[0.116411] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'install'}
+[0.120983] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 33%] Built target composition_nodes\n'}
+[0.124418] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'[100%] Built target action_server_member_functions\n'}
+[0.133823] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o\x1b[0m\n'}
+[0.141236] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'[100%] Built target client_main\n'}
+[0.145114] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_async_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.147492] (examples_rclcpp_minimal_action_server) CommandEnded: {'returncode': 0}
+[0.148695] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'install'}
+[0.148709] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_action_server', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.152766] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.154254] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main\n'}
+[0.154365] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client\n'}
+[0.154417] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client\n'}
+[0.154455] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh\n'}
+[0.154486] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv\n'}
+[0.154741] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh\n'}
+[0.155187] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv\n'}
+[0.155317] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash\n'}
+[0.155362] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh\n'}
+[0.155393] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh\n'}
+[0.155422] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv\n'}
+[0.155449] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv\n'}
+[0.155477] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client\n'}
+[0.155684] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake\n'}
+[0.155753] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake\n'}
+[0.155795] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml\n'}
+[0.161069] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.164817] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable\n'}
+[0.164964] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions\n'}
+[0.165201] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server\n'}
+[0.165268] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server\n'}
+[0.165302] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh\n'}
+[0.165335] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv\n'}
+[0.165363] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh\n'}
+[0.165725] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv\n'}
+[0.165794] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash\n'}
+[0.165836] (examples_rclcpp_async_client) CommandEnded: {'returncode': 0}
+[0.166776] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh\n'}
+[0.166866] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh\n'}
+[0.166893] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv\n'}
+[0.167016] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv\n'}
+[0.167060] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server\n'}
+[0.167114] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake\n'}
+[0.167199] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake\n'}
+[0.167294] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml\n'}
+[0.167330] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 55%] Built target composition_publisher\n'}
+[0.167383] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[ 77%] Built target composition_subscriber\n'}
+[0.167416] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'[100%] Built target composition_composed\n'}
+[0.180294] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 0}
+[0.180637] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.185836] (examples_rclcpp_minimal_action_server) CommandEnded: {'returncode': 0}
+[0.196712] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 0}
+[0.198009] (examples_rclcpp_minimal_client) CommandEnded: {'returncode': 0}
+[0.198297] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'install'}
+[0.198309] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.199169] (examples_rclcpp_minimal_composition) CommandEnded: {'returncode': 0}
+[0.200249] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'install'}
+[0.200268] (-) TimerEvent: {}
+[0.200320] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_composition', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.201492] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.205985] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.206065] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main\n'}
+[0.206098] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client\n'}
+[0.206128] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client\n'}
+[0.206189] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh\n'}
+[0.206216] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv\n'}
+[0.206237] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh\n'}
+[0.206256] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv\n'}
+[0.206275] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash\n'}
+[0.206308] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh\n'}
+[0.206336] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh\n'}
+[0.206355] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv\n'}
+[0.206373] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv\n'}
+[0.206730] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'cmake'}
+[0.206748] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client\n'}
+[0.206922] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake\n'}
+[0.207040] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake\n'}
+[0.207251] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Up-to-date: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml\n'}
+[0.208622] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'build'}
+[0.208650] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.210168] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'cmake'}
+[0.210702] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'build'}
+[0.210811] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.213765] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.213905] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh\n'}
+[0.213946] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv\n'}
+[0.219627] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so\n'}
+[0.219724] (examples_rclcpp_minimal_client) CommandEnded: {'returncode': 0}
+[0.224386] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""\n'}
+[0.224472] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher\n'}
+[0.224497] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""\n'}
+[0.224631] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber\n'}
+[0.230794] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""\n'}
+[0.230873] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed\n'}
+[0.230907] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""\n'}
+[0.230935] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition\n'}
+[0.230964] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition\n'}
+[0.230984] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh\n'}
+[0.231003] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv\n'}
+[0.231030] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh\n'}
+[0.231073] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv\n'}
+[0.231102] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash\n'}
+[0.231156] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh\n'}
+[0.231185] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh\n'}
+[0.231211] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv\n'}
+[0.231237] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv\n'}
+[0.231267] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition\n'}
+[0.231290] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake\n'}
+[0.231308] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake\n'}
+[0.231325] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml\n'}
+[0.236148] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 0}
+[0.236684] (examples_rclcpp_minimal_subscriber) JobStarted: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.239187] (examples_rclcpp_minimal_composition) CommandEnded: {'returncode': 0}
+[0.256245] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 0}
+[0.256866] (examples_rclcpp_minimal_timer) JobStarted: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.259326] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o\x1b[0m\n'}
+[0.263784] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'cmake'}
+[0.264886] (examples_rclcpp_minimal_subscriber) JobProgress: {'identifier': 'examples_rclcpp_minimal_subscriber', 'progress': 'build'}
+[0.264899] (examples_rclcpp_minimal_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber', '--', '-j6', '-l6'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_subscriber', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.268453] (examples_rclcpp_minimal_timer) JobProgress: {'identifier': 'examples_rclcpp_minimal_timer', 'progress': 'cmake'}
+[0.268476] (examples_rclcpp_minimal_timer) Command: {'cmd': ['/usr/bin/cmake', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer', '-DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[0.281787] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o\x1b[0m\n'}
+[0.282050] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o\x1b[0m\n'}
+[0.282086] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[0.282109] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[0.282136] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o\x1b[0m\n'}
+[0.282157] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o\x1b[0m\n'}
+[0.306336] (-) TimerEvent: {}
+[0.400473] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o\x1b[0m\n'}
+[0.400726] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o\x1b[0m\n'}
+[0.407625] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o\x1b[0m\n'}
+[0.407712] (-) TimerEvent: {}
+[0.407776] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o\x1b[0m\n'}
+[0.412655] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o\x1b[0m\n'}
+[0.423082] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o\x1b[0m\n'}
+[0.507820] (-) TimerEvent: {}
+[0.608042] (-) TimerEvent: {}
+[0.709865] (-) TimerEvent: {}
+[0.810809] (-) TimerEvent: {}
+[0.916682] (-) TimerEvent: {}
+[1.016948] (-) TimerEvent: {}
+[1.117173] (-) TimerEvent: {}
+[1.219651] (-) TimerEvent: {}
+[1.319877] (-) TimerEvent: {}
+[1.422569] (-) TimerEvent: {}
+[1.522787] (-) TimerEvent: {}
+[1.623083] (-) TimerEvent: {}
+[1.726629] (-) TimerEvent: {}
+[1.826990] (-) TimerEvent: {}
+[1.929108] (-) TimerEvent: {}
+[2.034137] (-) TimerEvent: {}
+[2.136405] (-) TimerEvent: {}
+[2.243072] (-) TimerEvent: {}
+[2.395083] (-) TimerEvent: {}
+[2.587484] (-) TimerEvent: {}
+[2.696813] (-) TimerEvent: {}
+[2.798327] (-) TimerEvent: {}
+[2.902874] (-) TimerEvent: {}
+[3.006193] (-) TimerEvent: {}
+[3.109433] (-) TimerEvent: {}
+[3.220155] (-) TimerEvent: {}
+[3.320952] (-) TimerEvent: {}
+[3.422803] (-) TimerEvent: {}
+[3.526044] (-) TimerEvent: {}
+[3.626698] (-) TimerEvent: {}
+[3.727000] (-) TimerEvent: {}
+[3.827346] (-) TimerEvent: {}
+[3.929398] (-) TimerEvent: {}
+[4.033679] (-) TimerEvent: {}
+[4.134024] (-) TimerEvent: {}
+[4.234590] (-) TimerEvent: {}
+[4.335204] (-) TimerEvent: {}
+[4.437294] (-) TimerEvent: {}
+[4.538727] (-) TimerEvent: {}
+[4.639372] (-) TimerEvent: {}
+[4.740218] (-) TimerEvent: {}
+[4.840806] (-) TimerEvent: {}
+[4.945357] (-) TimerEvent: {}
+[5.048202] (-) TimerEvent: {}
+[5.150921] (-) TimerEvent: {}
+[5.252097] (-) TimerEvent: {}
+[5.353430] (-) TimerEvent: {}
+[5.454185] (-) TimerEvent: {}
+[5.554974] (-) TimerEvent: {}
+[5.655233] (-) TimerEvent: {}
+[5.757150] (-) TimerEvent: {}
+[5.858690] (-) TimerEvent: {}
+[5.960276] (-) TimerEvent: {}
+[6.060962] (-) TimerEvent: {}
+[6.162338] (-) TimerEvent: {}
+[6.263001] (-) TimerEvent: {}
+[6.363754] (-) TimerEvent: {}
+[6.464970] (-) TimerEvent: {}
+[6.565390] (-) TimerEvent: {}
+[6.666032] (-) TimerEvent: {}
+[6.766366] (-) TimerEvent: {}
+[6.866803] (-) TimerEvent: {}
+[6.967030] (-) TimerEvent: {}
+[7.068319] (-) TimerEvent: {}
+[7.170442] (-) TimerEvent: {}
+[7.270710] (-) TimerEvent: {}
+[7.373444] (-) TimerEvent: {}
+[7.474218] (-) TimerEvent: {}
+[7.577596] (-) TimerEvent: {}
+[7.694160] (-) TimerEvent: {}
+[7.795588] (-) TimerEvent: {}
+[7.895920] (-) TimerEvent: {}
+[7.996191] (-) TimerEvent: {}
+[8.124799] (-) TimerEvent: {}
+[8.225187] (-) TimerEvent: {}
+[8.325945] (-) TimerEvent: {}
+[8.426320] (-) TimerEvent: {}
+[8.526997] (-) TimerEvent: {}
+[8.627727] (-) TimerEvent: {}
+[8.731753] (-) TimerEvent: {}
+[8.832319] (-) TimerEvent: {}
+[8.935571] (-) TimerEvent: {}
+[9.036033] (-) TimerEvent: {}
+[9.137372] (-) TimerEvent: {}
+[9.238816] (-) TimerEvent: {}
+[9.343782] (-) TimerEvent: {}
+[9.444881] (-) TimerEvent: {}
+[9.545266] (-) TimerEvent: {}
+[9.646204] (-) TimerEvent: {}
+[9.746914] (-) TimerEvent: {}
+[9.848351] (-) TimerEvent: {}
+[9.961335] (-) TimerEvent: {}
+[10.063284] (-) TimerEvent: {}
+[10.163597] (-) TimerEvent: {}
+[10.265300] (-) TimerEvent: {}
+[10.366314] (-) TimerEvent: {}
+[10.467039] (-) TimerEvent: {}
+[10.570717] (-) TimerEvent: {}
+[10.671132] (-) TimerEvent: {}
+[10.771684] (-) TimerEvent: {}
+[10.872878] (-) TimerEvent: {}
+[10.973316] (-) TimerEvent: {}
+[11.074702] (-) TimerEvent: {}
+[11.176419] (-) TimerEvent: {}
+[11.276839] (-) TimerEvent: {}
+[11.377809] (-) TimerEvent: {}
+[11.481345] (-) TimerEvent: {}
+[11.582377] (-) TimerEvent: {}
+[11.685259] (-) TimerEvent: {}
+[11.786215] (-) TimerEvent: {}
+[11.887044] (-) TimerEvent: {}
+[11.988271] (-) TimerEvent: {}
+[12.089854] (-) TimerEvent: {}
+[12.190395] (-) TimerEvent: {}
+[12.291204] (-) TimerEvent: {}
+[12.392721] (-) TimerEvent: {}
+[12.494253] (-) TimerEvent: {}
+[12.594874] (-) TimerEvent: {}
+[12.696441] (-) TimerEvent: {}
+[12.798188] (-) TimerEvent: {}
+[12.899043] (-) TimerEvent: {}
+[13.001920] (-) TimerEvent: {}
+[13.102908] (-) TimerEvent: {}
+[13.203155] (-) TimerEvent: {}
+[13.303406] (-) TimerEvent: {}
+[13.404379] (-) TimerEvent: {}
+[13.506094] (-) TimerEvent: {}
+[13.606773] (-) TimerEvent: {}
+[13.707060] (-) TimerEvent: {}
+[13.807356] (-) TimerEvent: {}
+[13.908391] (-) TimerEvent: {}
+[14.009769] (-) TimerEvent: {}
+[14.110321] (-) TimerEvent: {}
+[14.214164] (-) TimerEvent: {}
+[14.316848] (-) TimerEvent: {}
+[14.417196] (-) TimerEvent: {}
+[14.519287] (-) TimerEvent: {}
+[14.620800] (-) TimerEvent: {}
+[14.721350] (-) TimerEvent: {}
+[14.824087] (-) TimerEvent: {}
+[14.924798] (-) TimerEvent: {}
+[15.027450] (-) TimerEvent: {}
+[15.129484] (-) TimerEvent: {}
+[15.230930] (-) TimerEvent: {}
+[15.333399] (-) TimerEvent: {}
+[15.435105] (-) TimerEvent: {}
+[15.535824] (-) TimerEvent: {}
+[15.636290] (-) TimerEvent: {}
+[15.737074] (-) TimerEvent: {}
+[15.837371] (-) TimerEvent: {}
+[15.940465] (-) TimerEvent: {}
+[16.043113] (-) TimerEvent: {}
+[16.143601] (-) TimerEvent: {}
+[16.244133] (-) TimerEvent: {}
+[16.344481] (-) TimerEvent: {}
+[16.445229] (-) TimerEvent: {}
+[16.546413] (-) TimerEvent: {}
+[16.647326] (-) TimerEvent: {}
+[16.749308] (-) TimerEvent: {}
+[16.850421] (-) TimerEvent: {}
+[16.951004] (-) TimerEvent: {}
+[17.051921] (-) TimerEvent: {}
+[17.152975] (-) TimerEvent: {}
+[17.253901] (-) TimerEvent: {}
+[17.354377] (-) TimerEvent: {}
+[17.455298] (-) TimerEvent: {}
+[17.558689] (-) TimerEvent: {}
+[17.659165] (-) TimerEvent: {}
+[17.760492] (-) TimerEvent: {}
+[17.861439] (-) TimerEvent: {}
+[17.965837] (-) TimerEvent: {}
+[18.068159] (-) TimerEvent: {}
+[18.168981] (-) TimerEvent: {}
+[18.270221] (-) TimerEvent: {}
+[18.371111] (-) TimerEvent: {}
+[18.471872] (-) TimerEvent: {}
+[18.572143] (-) TimerEvent: {}
+[18.672598] (-) TimerEvent: {}
+[18.772901] (-) TimerEvent: {}
+[18.874388] (-) TimerEvent: {}
+[18.976145] (-) TimerEvent: {}
+[19.077259] (-) TimerEvent: {}
+[19.180029] (-) TimerEvent: {}
+[19.281009] (-) TimerEvent: {}
+[19.381755] (-) TimerEvent: {}
+[19.483327] (-) TimerEvent: {}
+[19.586954] (-) TimerEvent: {}
+[19.687897] (-) TimerEvent: {}
+[19.791992] (-) TimerEvent: {}
+[19.893710] (-) TimerEvent: {}
+[19.994256] (-) TimerEvent: {}
+[20.094682] (-) TimerEvent: {}
+[20.196070] (-) TimerEvent: {}
+[20.297178] (-) TimerEvent: {}
+[20.398301] (-) TimerEvent: {}
+[20.499043] (-) TimerEvent: {}
+[20.600806] (-) TimerEvent: {}
+[20.704240] (-) TimerEvent: {}
+[20.806857] (-) TimerEvent: {}
+[20.907987] (-) TimerEvent: {}
+[21.011327] (-) TimerEvent: {}
+[21.112718] (-) TimerEvent: {}
+[21.213255] (-) TimerEvent: {}
+[21.314145] (-) TimerEvent: {}
+[21.416365] (-) TimerEvent: {}
+[21.516863] (-) TimerEvent: {}
+[21.618028] (-) TimerEvent: {}
+[21.718401] (-) TimerEvent: {}
+[21.824074] (-) TimerEvent: {}
+[21.924809] (-) TimerEvent: {}
+[22.026221] (-) TimerEvent: {}
+[22.128441] (-) TimerEvent: {}
+[22.229296] (-) TimerEvent: {}
+[22.334678] (-) TimerEvent: {}
+[22.435653] (-) TimerEvent: {}
+[22.536072] (-) TimerEvent: {}
+[22.637780] (-) TimerEvent: {}
+[22.738464] (-) TimerEvent: {}
+[22.841421] (-) TimerEvent: {}
+[22.942685] (-) TimerEvent: {}
+[23.043374] (-) TimerEvent: {}
+[23.144597] (-) TimerEvent: {}
+[23.244910] (-) TimerEvent: {}
+[23.345854] (-) TimerEvent: {}
+[23.446706] (-) TimerEvent: {}
+[23.547418] (-) TimerEvent: {}
+[23.647937] (-) TimerEvent: {}
+[23.748874] (-) TimerEvent: {}
+[23.850051] (-) TimerEvent: {}
+[23.950734] (-) TimerEvent: {}
+[24.053068] (-) TimerEvent: {}
+[24.156238] (-) TimerEvent: {}
+[24.257020] (-) TimerEvent: {}
+[24.358334] (-) TimerEvent: {}
+[24.459805] (-) TimerEvent: {}
+[24.562257] (-) TimerEvent: {}
+[24.662942] (-) TimerEvent: {}
+[24.765856] (-) TimerEvent: {}
+[24.866942] (-) TimerEvent: {}
+[24.967611] (-) TimerEvent: {}
+[25.068006] (-) TimerEvent: {}
+[25.169299] (-) TimerEvent: {}
+[25.270623] (-) TimerEvent: {}
+[25.371249] (-) TimerEvent: {}
+[25.471775] (-) TimerEvent: {}
+[25.573359] (-) TimerEvent: {}
+[25.675859] (-) TimerEvent: {}
+[25.779174] (-) TimerEvent: {}
+[25.880431] (-) TimerEvent: {}
+[25.980980] (-) TimerEvent: {}
+[26.082176] (-) TimerEvent: {}
+[26.183082] (-) TimerEvent: {}
+[26.283815] (-) TimerEvent: {}
+[26.384703] (-) TimerEvent: {}
+[26.485271] (-) TimerEvent: {}
+[26.587152] (-) TimerEvent: {}
+[26.687625] (-) TimerEvent: {}
+[26.788261] (-) TimerEvent: {}
+[26.889291] (-) TimerEvent: {}
+[26.989830] (-) TimerEvent: {}
+[27.090914] (-) TimerEvent: {}
+[27.195296] (-) TimerEvent: {}
+[27.296150] (-) TimerEvent: {}
+[27.397188] (-) TimerEvent: {}
+[27.497996] (-) TimerEvent: {}
+[27.599210] (-) TimerEvent: {}
+[27.705976] (-) TimerEvent: {}
+[27.807036] (-) TimerEvent: {}
+[27.912634] (-) TimerEvent: {}
+[28.012963] (-) TimerEvent: {}
+[28.113844] (-) TimerEvent: {}
+[28.215074] (-) TimerEvent: {}
+[28.319699] (-) TimerEvent: {}
+[28.420729] (-) TimerEvent: {}
+[28.520991] (-) TimerEvent: {}
+[28.622385] (-) TimerEvent: {}
+[28.722728] (-) TimerEvent: {}
+[28.823346] (-) TimerEvent: {}
+[28.924820] (-) TimerEvent: {}
+[29.027348] (-) TimerEvent: {}
+[29.128197] (-) TimerEvent: {}
+[29.230101] (-) TimerEvent: {}
+[29.332221] (-) TimerEvent: {}
+[29.433132] (-) TimerEvent: {}
+[29.536322] (-) TimerEvent: {}
+[29.637247] (-) TimerEvent: {}
+[29.738678] (-) TimerEvent: {}
+[29.839252] (-) TimerEvent: {}
+[29.939582] (-) TimerEvent: {}
+[30.040194] (-) TimerEvent: {}
+[30.140693] (-) TimerEvent: {}
+[30.241623] (-) TimerEvent: {}
+[30.362098] (-) TimerEvent: {}
+[30.472967] (-) TimerEvent: {}
+[30.575630] (-) TimerEvent: {}
+[30.676251] (-) TimerEvent: {}
+[30.776632] (-) TimerEvent: {}
+[30.877219] (-) TimerEvent: {}
+[30.979043] (-) TimerEvent: {}
+[31.081397] (-) TimerEvent: {}
+[31.181915] (-) TimerEvent: {}
+[31.282396] (-) TimerEvent: {}
+[31.383431] (-) TimerEvent: {}
+[31.484249] (-) TimerEvent: {}
+[31.584642] (-) TimerEvent: {}
+[31.685073] (-) TimerEvent: {}
+[31.787026] (-) TimerEvent: {}
+[31.887960] (-) TimerEvent: {}
+[31.988292] (-) TimerEvent: {}
+[32.088886] (-) TimerEvent: {}
+[32.189888] (-) TimerEvent: {}
+[32.290395] (-) TimerEvent: {}
+[32.391103] (-) TimerEvent: {}
+[32.492739] (-) TimerEvent: {}
+[32.593732] (-) TimerEvent: {}
+[32.695346] (-) TimerEvent: {}
+[32.798056] (-) TimerEvent: {}
+[32.902220] (-) TimerEvent: {}
+[33.002733] (-) TimerEvent: {}
+[33.103395] (-) TimerEvent: {}
+[33.205832] (-) TimerEvent: {}
+[33.306048] (-) TimerEvent: {}
+[33.406983] (-) TimerEvent: {}
+[33.508140] (-) TimerEvent: {}
+[33.609097] (-) TimerEvent: {}
+[33.710264] (-) TimerEvent: {}
+[33.810567] (-) TimerEvent: {}
+[33.911175] (-) TimerEvent: {}
+[34.013321] (-) TimerEvent: {}
+[34.114426] (-) TimerEvent: {}
+[34.218414] (-) TimerEvent: {}
+[34.319549] (-) TimerEvent: {}
+[34.420801] (-) TimerEvent: {}
+[34.522184] (-) TimerEvent: {}
+[34.623200] (-) TimerEvent: {}
+[34.724026] (-) TimerEvent: {}
+[34.824994] (-) TimerEvent: {}
+[34.926856] (-) TimerEvent: {}
+[35.028038] (-) TimerEvent: {}
+[35.132671] (-) TimerEvent: {}
+[35.233950] (-) TimerEvent: {}
+[35.334898] (-) TimerEvent: {}
+[35.436168] (-) TimerEvent: {}
+[35.536929] (-) TimerEvent: {}
+[35.637923] (-) TimerEvent: {}
+[35.738719] (-) TimerEvent: {}
+[35.839929] (-) TimerEvent: {}
+[35.941779] (-) TimerEvent: {}
+[36.043191] (-) TimerEvent: {}
+[36.144281] (-) TimerEvent: {}
+[36.245641] (-) TimerEvent: {}
+[36.346287] (-) TimerEvent: {}
+[36.447148] (-) TimerEvent: {}
+[36.548308] (-) TimerEvent: {}
+[36.648764] (-) TimerEvent: {}
+[36.749439] (-) TimerEvent: {}
+[36.850468] (-) TimerEvent: {}
+[36.951490] (-) TimerEvent: {}
+[37.052405] (-) TimerEvent: {}
+[37.155405] (-) TimerEvent: {}
+[37.256777] (-) TimerEvent: {}
+[37.358053] (-) TimerEvent: {}
+[37.459936] (-) TimerEvent: {}
+[37.562074] (-) TimerEvent: {}
+[37.662897] (-) TimerEvent: {}
+[37.764862] (-) TimerEvent: {}
+[37.866002] (-) TimerEvent: {}
+[37.969006] (-) TimerEvent: {}
+[38.070037] (-) TimerEvent: {}
+[38.170557] (-) TimerEvent: {}
+[38.271715] (-) TimerEvent: {}
+[38.372218] (-) TimerEvent: {}
+[38.472692] (-) TimerEvent: {}
+[38.573482] (-) TimerEvent: {}
+[38.674627] (-) TimerEvent: {}
+[38.775631] (-) TimerEvent: {}
+[38.876187] (-) TimerEvent: {}
+[38.977282] (-) TimerEvent: {}
+[39.077966] (-) TimerEvent: {}
+[39.179818] (-) TimerEvent: {}
+[39.283088] (-) TimerEvent: {}
+[39.386851] (-) TimerEvent: {}
+[39.489066] (-) TimerEvent: {}
+[39.590297] (-) TimerEvent: {}
+[39.690639] (-) TimerEvent: {}
+[39.791921] (-) TimerEvent: {}
+[39.892645] (-) TimerEvent: {}
+[39.992884] (-) TimerEvent: {}
+[40.094614] (-) TimerEvent: {}
+[40.195259] (-) TimerEvent: {}
+[40.296952] (-) TimerEvent: {}
+[40.398261] (-) TimerEvent: {}
+[40.499174] (-) TimerEvent: {}
+[40.600204] (-) TimerEvent: {}
+[40.701259] (-) TimerEvent: {}
+[40.804408] (-) TimerEvent: {}
+[40.905048] (-) TimerEvent: {}
+[41.007036] (-) TimerEvent: {}
+[41.107939] (-) TimerEvent: {}
+[41.209073] (-) TimerEvent: {}
+[41.309726] (-) TimerEvent: {}
+[41.410942] (-) TimerEvent: {}
+[41.512296] (-) TimerEvent: {}
+[41.613825] (-) TimerEvent: {}
+[41.716225] (-) TimerEvent: {}
+[41.818342] (-) TimerEvent: {}
+[41.920290] (-) TimerEvent: {}
+[42.021613] (-) TimerEvent: {}
+[42.123262] (-) TimerEvent: {}
+[42.224200] (-) TimerEvent: {}
+[42.325422] (-) TimerEvent: {}
+[42.427063] (-) TimerEvent: {}
+[42.527881] (-) TimerEvent: {}
+[42.628611] (-) TimerEvent: {}
+[42.739380] (-) TimerEvent: {}
+[42.851361] (-) TimerEvent: {}
+[42.957354] (-) TimerEvent: {}
+[43.058595] (-) TimerEvent: {}
+[43.159765] (-) TimerEvent: {}
+[43.261292] (-) TimerEvent: {}
+[43.362209] (-) TimerEvent: {}
+[43.462492] (-) TimerEvent: {}
+[43.563236] (-) TimerEvent: {}
+[43.664133] (-) TimerEvent: {}
+[43.765906] (-) TimerEvent: {}
+[43.866922] (-) TimerEvent: {}
+[43.968290] (-) TimerEvent: {}
+[44.068950] (-) TimerEvent: {}
+[44.170704] (-) TimerEvent: {}
+[44.271188] (-) TimerEvent: {}
+[44.372031] (-) TimerEvent: {}
+[44.472675] (-) TimerEvent: {}
+[44.573676] (-) TimerEvent: {}
+[44.674384] (-) TimerEvent: {}
+[44.775478] (-) TimerEvent: {}
+[44.877088] (-) TimerEvent: {}
+[44.979252] (-) TimerEvent: {}
+[45.079941] (-) TimerEvent: {}
+[45.180646] (-) TimerEvent: {}
+[45.283643] (-) TimerEvent: {}
+[45.384085] (-) TimerEvent: {}
+[45.488321] (-) TimerEvent: {}
+[45.588633] (-) TimerEvent: {}
+[45.689129] (-) TimerEvent: {}
+[45.789760] (-) TimerEvent: {}
+[45.890388] (-) TimerEvent: {}
+[45.995162] (-) TimerEvent: {}
+[46.095739] (-) TimerEvent: {}
+[46.197275] (-) TimerEvent: {}
+[46.297644] (-) TimerEvent: {}
+[46.401719] (-) TimerEvent: {}
+[46.502769] (-) TimerEvent: {}
+[46.604474] (-) TimerEvent: {}
+[46.706181] (-) TimerEvent: {}
+[46.806946] (-) TimerEvent: {}
+[46.908127] (-) TimerEvent: {}
+[47.011476] (-) TimerEvent: {}
+[47.113084] (-) TimerEvent: {}
+[47.213885] (-) TimerEvent: {}
+[47.314667] (-) TimerEvent: {}
+[47.415287] (-) TimerEvent: {}
+[47.516084] (-) TimerEvent: {}
+[47.617955] (-) TimerEvent: {}
+[47.718173] (-) TimerEvent: {}
+[47.818637] (-) TimerEvent: {}
+[47.920008] (-) TimerEvent: {}
+[48.021316] (-) TimerEvent: {}
+[48.121899] (-) TimerEvent: {}
+[48.222667] (-) TimerEvent: {}
+[48.324246] (-) TimerEvent: {}
+[48.424468] (-) TimerEvent: {}
+[48.524914] (-) TimerEvent: {}
+[48.625520] (-) TimerEvent: {}
+[48.725747] (-) TimerEvent: {}
+[48.825971] (-) TimerEvent: {}
+[48.927025] (-) TimerEvent: {}
+[49.027429] (-) TimerEvent: {}
+[49.128883] (-) TimerEvent: {}
+[49.231091] (-) TimerEvent: {}
+[49.331632] (-) TimerEvent: {}
+[49.434153] (-) TimerEvent: {}
+[49.534677] (-) TimerEvent: {}
+[49.635306] (-) TimerEvent: {}
+[49.735826] (-) TimerEvent: {}
+[49.837100] (-) TimerEvent: {}
+[49.939213] (-) TimerEvent: {}
+[50.042174] (-) TimerEvent: {}
+[50.143067] (-) TimerEvent: {}
+[50.244148] (-) TimerEvent: {}
+[50.346659] (-) TimerEvent: {}
+[50.447191] (-) TimerEvent: {}
+[50.547939] (-) TimerEvent: {}
+[50.648463] (-) TimerEvent: {}
+[50.749598] (-) TimerEvent: {}
+[50.851326] (-) TimerEvent: {}
+[50.952117] (-) TimerEvent: {}
+[51.053419] (-) TimerEvent: {}
+[51.157028] (-) TimerEvent: {}
+[51.258315] (-) TimerEvent: {}
+[51.361982] (-) TimerEvent: {}
+[51.463159] (-) TimerEvent: {}
+[51.563805] (-) TimerEvent: {}
+[51.665892] (-) TimerEvent: {}
+[51.766318] (-) TimerEvent: {}
+[51.866544] (-) TimerEvent: {}
+[51.966775] (-) TimerEvent: {}
+[52.067156] (-) TimerEvent: {}
+[52.168483] (-) TimerEvent: {}
+[52.270147] (-) TimerEvent: {}
+[52.370368] (-) TimerEvent: {}
+[52.470590] (-) TimerEvent: {}
+[52.571587] (-) TimerEvent: {}
+[52.671808] (-) TimerEvent: {}
+[52.772041] (-) TimerEvent: {}
+[52.873651] (-) TimerEvent: {}
+[52.973864] (-) TimerEvent: {}
+[53.074306] (-) TimerEvent: {}
+[53.176956] (-) TimerEvent: {}
+[53.277258] (-) TimerEvent: {}
+[53.378407] (-) TimerEvent: {}
+[53.479027] (-) TimerEvent: {}
+[53.579718] (-) TimerEvent: {}
+[53.680349] (-) TimerEvent: {}
+[53.782714] (-) TimerEvent: {}
+[53.883430] (-) TimerEvent: {}
+[53.985318] (-) TimerEvent: {}
+[54.086063] (-) TimerEvent: {}
+[54.186696] (-) TimerEvent: {}
+[54.288121] (-) TimerEvent: {}
+[54.390235] (-) TimerEvent: {}
+[54.491348] (-) TimerEvent: {}
+[54.593269] (-) TimerEvent: {}
+[54.696462] (-) TimerEvent: {}
+[54.797420] (-) TimerEvent: {}
+[54.897927] (-) TimerEvent: {}
+[54.999324] (-) TimerEvent: {}
+[55.100914] (-) TimerEvent: {}
+[55.201959] (-) TimerEvent: {}
+[55.302496] (-) TimerEvent: {}
+[55.405739] (-) TimerEvent: {}
+[55.506125] (-) TimerEvent: {}
+[55.606917] (-) TimerEvent: {}
+[55.707417] (-) TimerEvent: {}
+[55.807713] (-) TimerEvent: {}
+[55.910298] (-) TimerEvent: {}
+[56.011250] (-) TimerEvent: {}
+[56.120320] (-) TimerEvent: {}
+[56.223472] (-) TimerEvent: {}
+[56.324028] (-) TimerEvent: {}
+[56.424258] (-) TimerEvent: {}
+[56.524678] (-) TimerEvent: {}
+[56.625726] (-) TimerEvent: {}
+[56.727023] (-) TimerEvent: {}
+[56.828097] (-) TimerEvent: {}
+[56.928489] (-) TimerEvent: {}
+[57.029373] (-) TimerEvent: {}
+[57.129901] (-) TimerEvent: {}
+[57.231247] (-) TimerEvent: {}
+[57.331732] (-) TimerEvent: {}
+[57.432387] (-) TimerEvent: {}
+[57.534071] (-) TimerEvent: {}
+[57.634548] (-) TimerEvent: {}
+[57.735149] (-) TimerEvent: {}
+[57.836802] (-) TimerEvent: {}
+[57.937497] (-) TimerEvent: {}
+[58.037897] (-) TimerEvent: {}
+[58.138116] (-) TimerEvent: {}
+[58.239098] (-) TimerEvent: {}
+[58.340417] (-) TimerEvent: {}
+[58.441468] (-) TimerEvent: {}
+[58.542102] (-) TimerEvent: {}
+[58.642996] (-) TimerEvent: {}
+[58.744181] (-) TimerEvent: {}
+[58.844709] (-) TimerEvent: {}
+[58.945434] (-) TimerEvent: {}
+[59.047141] (-) TimerEvent: {}
+[59.147375] (-) TimerEvent: {}
+[59.248084] (-) TimerEvent: {}
+[59.348868] (-) TimerEvent: {}
+[59.449691] (-) TimerEvent: {}
+[59.550213] (-) TimerEvent: {}
+[59.651375] (-) TimerEvent: {}
+[59.751748] (-) TimerEvent: {}
+[59.853850] (-) TimerEvent: {}
+[59.955902] (-) TimerEvent: {}
+[60.057665] (-) TimerEvent: {}
+[60.170420] (-) TimerEvent: {}
+[60.272964] (-) TimerEvent: {}
+[60.384238] (-) TimerEvent: {}
+[60.488800] (-) TimerEvent: {}
+[60.598445] (-) TimerEvent: {}
+[60.705618] (-) TimerEvent: {}
+[60.809056] (-) TimerEvent: {}
+[60.910307] (-) TimerEvent: {}
+[61.010900] (-) TimerEvent: {}
+[61.111123] (-) TimerEvent: {}
+[61.211935] (-) TimerEvent: {}
+[61.314645] (-) TimerEvent: {}
+[61.416252] (-) TimerEvent: {}
+[61.516697] (-) TimerEvent: {}
+[61.618747] (-) TimerEvent: {}
+[61.719301] (-) TimerEvent: {}
+[61.819955] (-) TimerEvent: {}
+[61.920468] (-) TimerEvent: {}
+[62.020924] (-) TimerEvent: {}
+[62.122202] (-) TimerEvent: {}
+[62.222445] (-) TimerEvent: {}
+[62.323411] (-) TimerEvent: {}
+[62.424610] (-) TimerEvent: {}
+[62.528066] (-) TimerEvent: {}
+[62.633329] (-) TimerEvent: {}
+[62.737225] (-) TimerEvent: {}
+[62.839016] (-) TimerEvent: {}
+[62.939308] (-) TimerEvent: {}
+[63.040411] (-) TimerEvent: {}
+[63.146655] (-) TimerEvent: {}
+[63.250953] (-) TimerEvent: {}
+[63.357024] (-) TimerEvent: {}
+[63.467280] (-) TimerEvent: {}
+[63.587182] (-) TimerEvent: {}
+[63.692956] (-) TimerEvent: {}
+[63.824905] (-) TimerEvent: {}
+[63.937392] (-) TimerEvent: {}
+[64.052940] (-) TimerEvent: {}
+[64.160205] (-) TimerEvent: {}
+[64.315895] (-) TimerEvent: {}
+[64.453342] (-) TimerEvent: {}
+[64.559750] (-) TimerEvent: {}
+[64.660750] (-) TimerEvent: {}
+[64.763604] (-) TimerEvent: {}
+[64.875747] (-) TimerEvent: {}
+[64.979762] (-) TimerEvent: {}
+[65.095907] (-) TimerEvent: {}
+[65.203331] (-) TimerEvent: {}
+[65.312858] (-) TimerEvent: {}
+[65.444189] (-) TimerEvent: {}
+[65.568270] (-) TimerEvent: {}
+[65.674990] (-) TimerEvent: {}
+[65.785797] (-) TimerEvent: {}
+[65.810902] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[65.971022] (-) TimerEvent: {}
+[65.971138] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'compilation terminated.\n'}
+[65.971204] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_client_not_composable_with_feedback.dir/build.make:76: CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o] Error 1\n'}
+[65.971238] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/action_client_not_composable_with_feedback.dir/all] Error 2\n'}
+[65.971726] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[66.072089] (-) TimerEvent: {}
+[66.173065] (-) TimerEvent: {}
+[66.273709] (-) TimerEvent: {}
+[66.375100] (-) TimerEvent: {}
+[66.475463] (-) TimerEvent: {}
+[66.578794] (-) TimerEvent: {}
+[66.679926] (-) TimerEvent: {}
+[66.781188] (-) TimerEvent: {}
+[66.882167] (-) TimerEvent: {}
+[66.983011] (-) TimerEvent: {}
+[67.085166] (-) TimerEvent: {}
+[67.190045] (-) TimerEvent: {}
+[67.292389] (-) TimerEvent: {}
+[67.395310] (-) TimerEvent: {}
+[67.497627] (-) TimerEvent: {}
+[67.599015] (-) TimerEvent: {}
+[67.699575] (-) TimerEvent: {}
+[67.800491] (-) TimerEvent: {}
+[67.901439] (-) TimerEvent: {}
+[68.002774] (-) TimerEvent: {}
+[68.103342] (-) TimerEvent: {}
+[68.203794] (-) TimerEvent: {}
+[68.304018] (-) TimerEvent: {}
+[68.404401] (-) TimerEvent: {}
+[68.504740] (-) TimerEvent: {}
+[68.604946] (-) TimerEvent: {}
+[68.705194] (-) TimerEvent: {}
+[68.805430] (-) TimerEvent: {}
+[68.905687] (-) TimerEvent: {}
+[69.006620] (-) TimerEvent: {}
+[69.108527] (-) TimerEvent: {}
+[69.208752] (-) TimerEvent: {}
+[69.309988] (-) TimerEvent: {}
+[69.411758] (-) TimerEvent: {}
+[69.512111] (-) TimerEvent: {}
+[69.612929] (-) TimerEvent: {}
+[69.713426] (-) TimerEvent: {}
+[69.815090] (-) TimerEvent: {}
+[69.915541] (-) TimerEvent: {}
+[70.015860] (-) TimerEvent: {}
+[70.118035] (-) TimerEvent: {}
+[70.218795] (-) TimerEvent: {}
+[70.321179] (-) TimerEvent: {}
+[70.422381] (-) TimerEvent: {}
+[70.523348] (-) TimerEvent: {}
+[70.624722] (-) TimerEvent: {}
+[70.725193] (-) TimerEvent: {}
+[70.826386] (-) TimerEvent: {}
+[70.928719] (-) TimerEvent: {}
+[71.028993] (-) TimerEvent: {}
+[71.130359] (-) TimerEvent: {}
+[71.231169] (-) TimerEvent: {}
+[71.335102] (-) TimerEvent: {}
+[71.435995] (-) TimerEvent: {}
+[71.536288] (-) TimerEvent: {}
+[71.638090] (-) TimerEvent: {}
+[71.739716] (-) TimerEvent: {}
+[71.841342] (-) TimerEvent: {}
+[71.942657] (-) TimerEvent: {}
+[72.043344] (-) TimerEvent: {}
+[72.145045] (-) TimerEvent: {}
+[72.246941] (-) TimerEvent: {}
+[72.347203] (-) TimerEvent: {}
+[72.447824] (-) TimerEvent: {}
+[72.548430] (-) TimerEvent: {}
+[72.659197] (-) TimerEvent: {}
+[72.761759] (-) TimerEvent: {}
+[72.862624] (-) TimerEvent: {}
+[72.963286] (-) TimerEvent: {}
+[73.065013] (-) TimerEvent: {}
+[73.165417] (-) TimerEvent: {}
+[73.267295] (-) TimerEvent: {}
+[73.368464] (-) TimerEvent: {}
+[73.468885] (-) TimerEvent: {}
+[73.569777] (-) TimerEvent: {}
+[73.670104] (-) TimerEvent: {}
+[73.771175] (-) TimerEvent: {}
+[73.871757] (-) TimerEvent: {}
+[73.973061] (-) TimerEvent: {}
+[74.074029] (-) TimerEvent: {}
+[74.175274] (-) TimerEvent: {}
+[74.276205] (-) TimerEvent: {}
+[74.376645] (-) TimerEvent: {}
+[74.490763] (-) TimerEvent: {}
+[74.596157] (-) TimerEvent: {}
+[74.697755] (-) TimerEvent: {}
+[74.809279] (-) TimerEvent: {}
+[74.917153] (-) TimerEvent: {}
+[75.018760] (-) TimerEvent: {}
+[75.121373] (-) TimerEvent: {}
+[75.222852] (-) TimerEvent: {}
+[75.325732] (-) TimerEvent: {}
+[75.426362] (-) TimerEvent: {}
+[75.527438] (-) TimerEvent: {}
+[75.637934] (-) TimerEvent: {}
+[75.744168] (-) TimerEvent: {}
+[76.076730] (-) TimerEvent: {}
+[76.314805] (-) TimerEvent: {}
+[76.510066] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[76.528202] (-) TimerEvent: {}
+[76.531300] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'compilation terminated.\n'}
+[76.531389] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_member_function.dir/build.make:76: CMakeFiles/publisher_member_function.dir/member_function.cpp.o] Error 1\n'}
+[76.535362] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/publisher_member_function.dir/all] Error 2\n'}
+[76.543425] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[76.628439] (-) TimerEvent: {}
+[76.729782] (-) TimerEvent: {}
+[76.830251] (-) TimerEvent: {}
+[76.931814] (-) TimerEvent: {}
+[77.035116] (-) TimerEvent: {}
+[77.137204] (-) TimerEvent: {}
+[77.238209] (-) TimerEvent: {}
+[77.339253] (-) TimerEvent: {}
+[77.439542] (-) TimerEvent: {}
+[77.539768] (-) TimerEvent: {}
+[77.640002] (-) TimerEvent: {}
+[77.740303] (-) TimerEvent: {}
+[77.841950] (-) TimerEvent: {}
+[77.943387] (-) TimerEvent: {}
+[78.043774] (-) TimerEvent: {}
+[78.144738] (-) TimerEvent: {}
+[78.248100] (-) TimerEvent: {}
+[78.348341] (-) TimerEvent: {}
+[78.448624] (-) TimerEvent: {}
+[78.551137] (-) TimerEvent: {}
+[78.653064] (-) TimerEvent: {}
+[78.753313] (-) TimerEvent: {}
+[78.853946] (-) TimerEvent: {}
+[78.954795] (-) TimerEvent: {}
+[79.055089] (-) TimerEvent: {}
+[79.155973] (-) TimerEvent: {}
+[79.256188] (-) TimerEvent: {}
+[79.356676] (-) TimerEvent: {}
+[79.457239] (-) TimerEvent: {}
+[79.557626] (-) TimerEvent: {}
+[79.657873] (-) TimerEvent: {}
+[79.758103] (-) TimerEvent: {}
+[79.858334] (-) TimerEvent: {}
+[79.959239] (-) TimerEvent: {}
+[80.059838] (-) TimerEvent: {}
+[80.160280] (-) TimerEvent: {}
+[80.261713] (-) TimerEvent: {}
+[80.362043] (-) TimerEvent: {}
+[80.462261] (-) TimerEvent: {}
+[80.562893] (-) TimerEvent: {}
+[80.664152] (-) TimerEvent: {}
+[80.765251] (-) TimerEvent: {}
+[80.869026] (-) TimerEvent: {}
+[80.970074] (-) TimerEvent: {}
+[81.072428] (-) TimerEvent: {}
+[81.173447] (-) TimerEvent: {}
+[81.274633] (-) TimerEvent: {}
+[81.375019] (-) TimerEvent: {}
+[81.475902] (-) TimerEvent: {}
+[81.576249] (-) TimerEvent: {}
+[81.677216] (-) TimerEvent: {}
+[81.777987] (-) TimerEvent: {}
+[81.879913] (-) TimerEvent: {}
+[81.984181] (-) TimerEvent: {}
+[82.084808] (-) TimerEvent: {}
+[82.186030] (-) TimerEvent: {}
+[82.287119] (-) TimerEvent: {}
+[82.387362] (-) TimerEvent: {}
+[82.489469] (-) TimerEvent: {}
+[82.589829] (-) TimerEvent: {}
+[82.690718] (-) TimerEvent: {}
+[82.791271] (-) TimerEvent: {}
+[82.891547] (-) TimerEvent: {}
+[82.992958] (-) TimerEvent: {}
+[83.093627] (-) TimerEvent: {}
+[83.196267] (-) TimerEvent: {}
+[83.297492] (-) TimerEvent: {}
+[83.398131] (-) TimerEvent: {}
+[83.498487] (-) TimerEvent: {}
+[83.599214] (-) TimerEvent: {}
+[83.699773] (-) TimerEvent: {}
+[83.801446] (-) TimerEvent: {}
+[83.902382] (-) TimerEvent: {}
+[84.003341] (-) TimerEvent: {}
+[84.103954] (-) TimerEvent: {}
+[84.204925] (-) TimerEvent: {}
+[84.305374] (-) TimerEvent: {}
+[84.406321] (-) TimerEvent: {}
+[84.506903] (-) TimerEvent: {}
+[84.608820] (-) TimerEvent: {}
+[84.709122] (-) TimerEvent: {}
+[84.809778] (-) TimerEvent: {}
+[84.911002] (-) TimerEvent: {}
+[85.012704] (-) TimerEvent: {}
+[85.113476] (-) TimerEvent: {}
+[85.214133] (-) TimerEvent: {}
+[85.314693] (-) TimerEvent: {}
+[85.415934] (-) TimerEvent: {}
+[85.517103] (-) TimerEvent: {}
+[85.617768] (-) TimerEvent: {}
+[85.718067] (-) TimerEvent: {}
+[85.818348] (-) TimerEvent: {}
+[85.919147] (-) TimerEvent: {}
+[86.019817] (-) TimerEvent: {}
+[86.120469] (-) TimerEvent: {}
+[86.221897] (-) TimerEvent: {}
+[86.323450] (-) TimerEvent: {}
+[86.425097] (-) TimerEvent: {}
+[86.525657] (-) TimerEvent: {}
+[86.627475] (-) TimerEvent: {}
+[86.728123] (-) TimerEvent: {}
+[86.828638] (-) TimerEvent: {}
+[86.929852] (-) TimerEvent: {}
+[87.030747] (-) TimerEvent: {}
+[87.131696] (-) TimerEvent: {}
+[87.236743] (-) TimerEvent: {}
+[87.339014] (-) TimerEvent: {}
+[87.441993] (-) TimerEvent: {}
+[87.542380] (-) TimerEvent: {}
+[87.643483] (-) TimerEvent: {}
+[87.744796] (-) TimerEvent: {}
+[87.845201] (-) TimerEvent: {}
+[87.945734] (-) TimerEvent: {}
+[88.046298] (-) TimerEvent: {}
+[88.146719] (-) TimerEvent: {}
+[88.247756] (-) TimerEvent: {}
+[88.348354] (-) TimerEvent: {}
+[88.449083] (-) TimerEvent: {}
+[88.549759] (-) TimerEvent: {}
+[88.650203] (-) TimerEvent: {}
+[88.751191] (-) TimerEvent: {}
+[88.852344] (-) TimerEvent: {}
+[88.952929] (-) TimerEvent: {}
+[89.054043] (-) TimerEvent: {}
+[89.154333] (-) TimerEvent: {}
+[89.254559] (-) TimerEvent: {}
+[89.354896] (-) TimerEvent: {}
+[89.455700] (-) TimerEvent: {}
+[89.556709] (-) TimerEvent: {}
+[89.657642] (-) TimerEvent: {}
+[89.758073] (-) TimerEvent: {}
+[89.859440] (-) TimerEvent: {}
+[89.959964] (-) TimerEvent: {}
+[90.062126] (-) TimerEvent: {}
+[90.163725] (-) TimerEvent: {}
+[90.264713] (-) TimerEvent: {}
+[90.364949] (-) TimerEvent: {}
+[90.465183] (-) TimerEvent: {}
+[90.565419] (-) TimerEvent: {}
+[90.665814] (-) TimerEvent: {}
+[90.781411] (-) TimerEvent: {}
+[90.890486] (-) TimerEvent: {}
+[90.997954] (-) TimerEvent: {}
+[91.099159] (-) TimerEvent: {}
+[91.199706] (-) TimerEvent: {}
+[91.300050] (-) TimerEvent: {}
+[91.400423] (-) TimerEvent: {}
+[91.500742] (-) TimerEvent: {}
+[91.601143] (-) TimerEvent: {}
+[91.701645] (-) TimerEvent: {}
+[91.802869] (-) TimerEvent: {}
+[91.903402] (-) TimerEvent: {}
+[92.004587] (-) TimerEvent: {}
+[92.105388] (-) TimerEvent: {}
+[92.207131] (-) TimerEvent: {}
+[92.307695] (-) TimerEvent: {}
+[92.408893] (-) TimerEvent: {}
+[92.510980] (-) TimerEvent: {}
+[92.613009] (-) TimerEvent: {}
+[92.730229] (-) TimerEvent: {}
+[92.832174] (-) TimerEvent: {}
+[92.933070] (-) TimerEvent: {}
+[93.034964] (-) TimerEvent: {}
+[93.135697] (-) TimerEvent: {}
+[93.235995] (-) TimerEvent: {}
+[93.336727] (-) TimerEvent: {}
+[93.441280] (-) TimerEvent: {}
+[93.551142] (-) TimerEvent: {}
+[93.657980] (-) TimerEvent: {}
+[93.765270] (-) TimerEvent: {}
+[93.871183] (-) TimerEvent: {}
+[93.979663] (-) TimerEvent: {}
+[94.080014] (-) TimerEvent: {}
+[94.146262] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable service_main\x1b[0m\n'}
+[94.187193] (-) TimerEvent: {}
+[94.288222] (-) TimerEvent: {}
+[94.390817] (-) TimerEvent: {}
+[94.492135] (-) TimerEvent: {}
+[94.593039] (-) TimerEvent: {}
+[94.693418] (-) TimerEvent: {}
+[94.794585] (-) TimerEvent: {}
+[94.894803] (-) TimerEvent: {}
+[94.995300] (-) TimerEvent: {}
+[95.095834] (-) TimerEvent: {}
+[95.196077] (-) TimerEvent: {}
+[95.296613] (-) TimerEvent: {}
+[95.397369] (-) TimerEvent: {}
+[95.497860] (-) TimerEvent: {}
+[95.598615] (-) TimerEvent: {}
+[95.699350] (-) TimerEvent: {}
+[95.800094] (-) TimerEvent: {}
+[95.900735] (-) TimerEvent: {}
+[96.001262] (-) TimerEvent: {}
+[96.052889] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'[100%] Built target service_main\n'}
+[96.101488] (-) TimerEvent: {}
+[96.201968] (-) TimerEvent: {}
+[96.309002] (-) TimerEvent: {}
+[96.413380] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[96.442108] (-) TimerEvent: {}
+[96.442212] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[96.442316] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[96.442347] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[96.442369] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\n'}
+[96.442388] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[96.442412] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  any of the following names:\n'}
+[96.450905] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\n'}
+[96.458085] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[96.458147] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[96.458172] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\n'}
+[96.458192] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[96.458212] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[96.458234] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[96.458251] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'  has been installed.\n'}
+[96.458268] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\n'}
+[96.458287] (examples_rclcpp_minimal_timer) StderrLine: {'line': b'\x1b[0m\n'}
+[96.458311] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[96.460080] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[96.468380] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[96.468702] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[96.468729] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[96.468749] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[96.468768] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[96.468791] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[96.468809] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[96.468866] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[96.468916] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[96.468940] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[96.468970] (examples_rclcpp_minimal_timer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[96.468994] (examples_rclcpp_minimal_service) CommandEnded: {'returncode': 0}
+[96.591324] (-) TimerEvent: {}
+[96.592020] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'install'}
+[96.631794] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service'], 'cwd': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vaemini', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/vaemini', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install', 'LOGNAME': 'vaemini', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vaemini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vaemini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vaemini-QEMU-Virtual-Machine:@/tmp/.ICE-unix/2046,unix/vaemini-QEMU-Virtual-Machine:/tmp/.ICE-unix/2046', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4dbb17cf_5d1c_44bc_921a_5900bc419bb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0V0ZU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_service', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_client:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_action_server:/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_async_client'}), 'shell': False}
+[96.697125] (-) TimerEvent: {}
+[96.765755] (examples_rclcpp_minimal_timer) CommandEnded: {'returncode': 1}
+[96.772877] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[96.772937] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main\n'}
+[96.779599] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main" to ""\n'}
+[96.779680] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service\n'}
+[96.779712] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service\n'}
+[96.779734] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh\n'}
+[96.779754] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv\n'}
+[96.779773] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh\n'}
+[96.779791] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv\n'}
+[96.779809] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash\n'}
+[96.779831] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh\n'}
+[96.779849] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh\n'}
+[96.779871] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv\n'}
+[96.779889] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv\n'}
+[96.779907] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service\n'}
+[96.779925] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake\n'}
+[96.779947] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake\n'}
+[96.779965] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Installing: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml\n'}
+[96.799426] (-) TimerEvent: {}
+[96.907096] (-) TimerEvent: {}
+[97.013473] (-) TimerEvent: {}
+[97.120729] (-) TimerEvent: {}
+[97.208778] (examples_rclcpp_minimal_timer) JobEnded: {'identifier': 'examples_rclcpp_minimal_timer', 'rc': 1}
+[97.258171] (-) TimerEvent: {}
+[97.258433] (examples_rclcpp_minimal_service) JobEnded: {'identifier': 'examples_rclcpp_minimal_service', 'rc': 'SIGINT'}
+[97.359412] (-) TimerEvent: {}
+[97.460221] (-) TimerEvent: {}
+[97.562905] (-) TimerEvent: {}
+[97.665815] (-) TimerEvent: {}
+[97.766755] (-) TimerEvent: {}
+[97.868608] (-) TimerEvent: {}
+[97.969179] (-) TimerEvent: {}
+[98.069612] (-) TimerEvent: {}
+[98.170764] (-) TimerEvent: {}
+[98.271587] (-) TimerEvent: {}
+[98.371907] (-) TimerEvent: {}
+[98.473076] (-) TimerEvent: {}
+[98.576035] (-) TimerEvent: {}
+[98.676803] (-) TimerEvent: {}
+[98.780757] (-) TimerEvent: {}
+[98.881774] (-) TimerEvent: {}
+[98.982382] (-) TimerEvent: {}
+[99.085942] (-) TimerEvent: {}
+[99.186178] (-) TimerEvent: {}
+[99.286561] (-) TimerEvent: {}
+[99.387153] (-) TimerEvent: {}
+[99.487760] (-) TimerEvent: {}
+[99.588655] (-) TimerEvent: {}
+[99.690310] (-) TimerEvent: {}
+[99.791148] (-) TimerEvent: {}
+[99.891784] (-) TimerEvent: {}
+[99.992427] (-) TimerEvent: {}
+[100.093021] (-) TimerEvent: {}
+[100.193591] (-) TimerEvent: {}
+[100.294200] (-) TimerEvent: {}
+[100.395614] (-) TimerEvent: {}
+[100.496625] (-) TimerEvent: {}
+[100.597336] (-) TimerEvent: {}
+[100.697900] (-) TimerEvent: {}
+[100.798229] (-) TimerEvent: {}
+[100.899097] (-) TimerEvent: {}
+[100.999341] (-) TimerEvent: {}
+[101.100104] (-) TimerEvent: {}
+[101.201021] (-) TimerEvent: {}
+[101.302053] (-) TimerEvent: {}
+[101.402882] (-) TimerEvent: {}
+[101.503314] (-) TimerEvent: {}
+[101.604060] (-) TimerEvent: {}
+[101.704320] (-) TimerEvent: {}
+[101.805831] (-) TimerEvent: {}
+[101.906679] (-) TimerEvent: {}
+[102.007828] (-) TimerEvent: {}
+[102.108865] (-) TimerEvent: {}
+[102.209338] (-) TimerEvent: {}
+[102.309850] (-) TimerEvent: {}
+[102.410880] (-) TimerEvent: {}
+[102.511211] (-) TimerEvent: {}
+[102.612261] (-) TimerEvent: {}
+[102.712892] (-) TimerEvent: {}
+[102.814071] (-) TimerEvent: {}
+[102.915708] (-) TimerEvent: {}
+[103.015975] (-) TimerEvent: {}
+[103.116409] (-) TimerEvent: {}
+[103.217267] (-) TimerEvent: {}
+[103.317801] (-) TimerEvent: {}
+[103.418982] (-) TimerEvent: {}
+[103.520186] (-) TimerEvent: {}
+[103.620427] (-) TimerEvent: {}
+[103.720996] (-) TimerEvent: {}
+[103.822245] (-) TimerEvent: {}
+[103.922995] (-) TimerEvent: {}
+[104.023752] (-) TimerEvent: {}
+[104.124229] (-) TimerEvent: {}
+[104.224897] (-) TimerEvent: {}
+[104.325985] (-) TimerEvent: {}
+[104.426609] (-) TimerEvent: {}
+[104.527251] (-) TimerEvent: {}
+[104.627867] (-) TimerEvent: {}
+[104.729767] (-) TimerEvent: {}
+[104.831482] (-) TimerEvent: {}
+[104.932069] (-) TimerEvent: {}
+[105.032873] (-) TimerEvent: {}
+[105.136104] (-) TimerEvent: {}
+[105.236328] (-) TimerEvent: {}
+[105.337191] (-) TimerEvent: {}
+[105.438014] (-) TimerEvent: {}
+[105.538236] (-) TimerEvent: {}
+[105.638659] (-) TimerEvent: {}
+[105.739129] (-) TimerEvent: {}
+[105.839981] (-) TimerEvent: {}
+[105.942121] (-) TimerEvent: {}
+[106.043048] (-) TimerEvent: {}
+[106.143361] (-) TimerEvent: {}
+[106.244495] (-) TimerEvent: {}
+[106.345137] (-) TimerEvent: {}
+[106.446284] (-) TimerEvent: {}
+[106.547624] (-) TimerEvent: {}
+[106.649294] (-) TimerEvent: {}
+[106.750348] (-) TimerEvent: {}
+[106.851762] (-) TimerEvent: {}
+[106.952137] (-) TimerEvent: {}
+[107.053373] (-) TimerEvent: {}
+[107.153586] (-) TimerEvent: {}
+[107.253987] (-) TimerEvent: {}
+[107.354340] (-) TimerEvent: {}
+[107.455259] (-) TimerEvent: {}
+[107.555999] (-) TimerEvent: {}
+[107.656335] (-) TimerEvent: {}
+[107.756849] (-) TimerEvent: {}
+[107.857232] (-) TimerEvent: {}
+[107.958542] (-) TimerEvent: {}
+[108.058988] (-) TimerEvent: {}
+[108.159235] (-) TimerEvent: {}
+[108.259486] (-) TimerEvent: {}
+[108.359720] (-) TimerEvent: {}
+[108.460945] (-) TimerEvent: {}
+[108.562688] (-) TimerEvent: {}
+[108.663649] (-) TimerEvent: {}
+[108.764005] (-) TimerEvent: {}
+[108.868034] (-) TimerEvent: {}
+[108.971763] (-) TimerEvent: {}
+[109.072130] (-) TimerEvent: {}
+[109.172752] (-) TimerEvent: {}
+[109.273476] (-) TimerEvent: {}
+[109.374475] (-) TimerEvent: {}
+[109.475091] (-) TimerEvent: {}
+[109.575550] (-) TimerEvent: {}
+[109.677295] (-) TimerEvent: {}
+[109.777952] (-) TimerEvent: {}
+[109.878830] (-) TimerEvent: {}
+[109.980206] (-) TimerEvent: {}
+[110.081360] (-) TimerEvent: {}
+[110.182018] (-) TimerEvent: {}
+[110.284200] (-) TimerEvent: {}
+[110.385668] (-) TimerEvent: {}
+[110.486259] (-) TimerEvent: {}
+[110.586766] (-) TimerEvent: {}
+[110.688791] (-) TimerEvent: {}
+[110.790738] (-) TimerEvent: {}
+[110.892033] (-) TimerEvent: {}
+[110.992754] (-) TimerEvent: {}
+[111.093429] (-) TimerEvent: {}
+[111.194634] (-) TimerEvent: {}
+[111.295752] (-) TimerEvent: {}
+[111.396277] (-) TimerEvent: {}
+[111.496906] (-) TimerEvent: {}
+[111.598325] (-) TimerEvent: {}
+[111.699466] (-) TimerEvent: {}
+[111.800565] (-) TimerEvent: {}
+[111.901300] (-) TimerEvent: {}
+[112.002162] (-) TimerEvent: {}
+[112.102719] (-) TimerEvent: {}
+[112.203409] (-) TimerEvent: {}
+[112.303804] (-) TimerEvent: {}
+[112.404099] (-) TimerEvent: {}
+[112.505317] (-) TimerEvent: {}
+[112.605756] (-) TimerEvent: {}
+[112.706063] (-) TimerEvent: {}
+[112.806772] (-) TimerEvent: {}
+[112.907345] (-) TimerEvent: {}
+[113.009120] (-) TimerEvent: {}
+[113.110951] (-) TimerEvent: {}
+[113.211256] (-) TimerEvent: {}
+[113.312043] (-) TimerEvent: {}
+[113.412638] (-) TimerEvent: {}
+[113.513221] (-) TimerEvent: {}
+[113.613690] (-) TimerEvent: {}
+[113.714794] (-) TimerEvent: {}
+[113.815722] (-) TimerEvent: {}
+[113.916083] (-) TimerEvent: {}
+[114.016951] (-) TimerEvent: {}
+[114.118339] (-) TimerEvent: {}
+[114.218885] (-) TimerEvent: {}
+[114.319649] (-) TimerEvent: {}
+[114.421150] (-) TimerEvent: {}
+[114.522361] (-) TimerEvent: {}
+[114.624164] (-) TimerEvent: {}
+[114.724860] (-) TimerEvent: {}
+[114.825358] (-) TimerEvent: {}
+[114.925816] (-) TimerEvent: {}
+[115.027014] (-) TimerEvent: {}
+[115.128784] (-) TimerEvent: {}
+[115.231678] (-) TimerEvent: {}
+[115.333189] (-) TimerEvent: {}
+[115.434376] (-) TimerEvent: {}
+[115.535341] (-) TimerEvent: {}
+[115.636742] (-) TimerEvent: {}
+[115.737755] (-) TimerEvent: {}
+[115.838248] (-) TimerEvent: {}
+[115.938790] (-) TimerEvent: {}
+[116.039016] (-) TimerEvent: {}
+[116.139788] (-) TimerEvent: {}
+[116.240173] (-) TimerEvent: {}
+[116.340683] (-) TimerEvent: {}
+[116.442857] (-) TimerEvent: {}
+[116.543671] (-) TimerEvent: {}
+[116.645100] (-) TimerEvent: {}
+[116.746246] (-) TimerEvent: {}
+[116.846978] (-) TimerEvent: {}
+[116.947314] (-) TimerEvent: {}
+[117.047718] (-) TimerEvent: {}
+[117.148390] (-) TimerEvent: {}
+[117.249009] (-) TimerEvent: {}
+[117.350074] (-) TimerEvent: {}
+[117.450680] (-) TimerEvent: {}
+[117.550921] (-) TimerEvent: {}
+[117.651301] (-) TimerEvent: {}
+[117.751815] (-) TimerEvent: {}
+[117.852396] (-) TimerEvent: {}
+[117.952978] (-) TimerEvent: {}
+[118.054193] (-) TimerEvent: {}
+[118.155352] (-) TimerEvent: {}
+[118.255917] (-) TimerEvent: {}
+[118.356955] (-) TimerEvent: {}
+[118.457915] (-) TimerEvent: {}
+[118.558426] (-) TimerEvent: {}
+[118.659220] (-) TimerEvent: {}
+[118.759765] (-) TimerEvent: {}
+[118.862181] (-) TimerEvent: {}
+[118.962460] (-) TimerEvent: {}
+[119.063367] (-) TimerEvent: {}
+[119.163943] (-) TimerEvent: {}
+[119.264323] (-) TimerEvent: {}
+[119.365921] (-) TimerEvent: {}
+[119.466775] (-) TimerEvent: {}
+[119.567286] (-) TimerEvent: {}
+[119.668871] (-) TimerEvent: {}
+[119.770709] (-) TimerEvent: {}
+[119.874210] (-) TimerEvent: {}
+[119.978879] (-) TimerEvent: {}
+[120.079187] (-) TimerEvent: {}
+[120.179744] (-) TimerEvent: {}
+[120.281213] (-) TimerEvent: {}
+[120.382281] (-) TimerEvent: {}
+[120.482744] (-) TimerEvent: {}
+[120.583756] (-) TimerEvent: {}
+[120.684690] (-) TimerEvent: {}
+[120.786832] (-) TimerEvent: {}
+[120.887770] (-) TimerEvent: {}
+[120.988802] (-) TimerEvent: {}
+[121.089098] (-) TimerEvent: {}
+[121.189388] (-) TimerEvent: {}
+[121.290411] (-) TimerEvent: {}
+[121.391264] (-) TimerEvent: {}
+[121.492107] (-) TimerEvent: {}
+[121.592483] (-) TimerEvent: {}
+[121.697079] (-) TimerEvent: {}
+[121.798586] (-) TimerEvent: {}
+[121.899316] (-) TimerEvent: {}
+[121.999702] (-) TimerEvent: {}
+[122.099945] (-) TimerEvent: {}
+[122.200582] (-) TimerEvent: {}
+[122.300964] (-) TimerEvent: {}
+[122.402053] (-) TimerEvent: {}
+[122.502933] (-) TimerEvent: {}
+[122.604643] (-) TimerEvent: {}
+[122.705686] (-) TimerEvent: {}
+[122.806273] (-) TimerEvent: {}
+[122.906549] (-) TimerEvent: {}
+[123.007549] (-) TimerEvent: {}
+[123.108009] (-) TimerEvent: {}
+[123.208300] (-) TimerEvent: {}
+[123.308779] (-) TimerEvent: {}
+[123.409778] (-) TimerEvent: {}
+[123.510597] (-) TimerEvent: {}
+[123.610829] (-) TimerEvent: {}
+[123.711280] (-) TimerEvent: {}
+[123.812467] (-) TimerEvent: {}
+[123.913672] (-) TimerEvent: {}
+[124.016834] (-) TimerEvent: {}
+[124.117699] (-) TimerEvent: {}
+[124.218889] (-) TimerEvent: {}
+[124.319254] (-) TimerEvent: {}
+[124.420383] (-) TimerEvent: {}
+[124.521308] (-) TimerEvent: {}
+[124.621860] (-) TimerEvent: {}
+[124.722832] (-) TimerEvent: {}
+[124.823808] (-) TimerEvent: {}
+[124.924573] (-) TimerEvent: {}
+[125.025312] (-) TimerEvent: {}
+[125.125830] (-) TimerEvent: {}
+[125.227196] (-) TimerEvent: {}
+[125.327929] (-) TimerEvent: {}
+[125.428673] (-) TimerEvent: {}
+[125.529001] (-) TimerEvent: {}
+[125.629362] (-) TimerEvent: {}
+[125.729874] (-) TimerEvent: {}
+[125.830837] (-) TimerEvent: {}
+[125.931134] (-) TimerEvent: {}
+[126.032196] (-) TimerEvent: {}
+[126.132763] (-) TimerEvent: {}
+[126.233750] (-) TimerEvent: {}
+[126.335786] (-) TimerEvent: {}
+[126.437919] (-) TimerEvent: {}
+[126.538978] (-) TimerEvent: {}
+[126.639879] (-) TimerEvent: {}
+[126.740674] (-) TimerEvent: {}
+[126.842377] (-) TimerEvent: {}
+[126.944340] (-) TimerEvent: {}
+[127.044559] (-) TimerEvent: {}
+[127.145042] (-) TimerEvent: {}
+[127.246057] (-) TimerEvent: {}
+[127.347006] (-) TimerEvent: {}
+[127.447587] (-) TimerEvent: {}
+[127.548194] (-) TimerEvent: {}
+[127.648641] (-) TimerEvent: {}
+[127.749188] (-) TimerEvent: {}
+[127.850481] (-) TimerEvent: {}
+[127.951289] (-) TimerEvent: {}
+[128.051785] (-) TimerEvent: {}
+[128.152194] (-) TimerEvent: {}
+[128.252496] (-) TimerEvent: {}
+[128.353214] (-) TimerEvent: {}
+[128.454114] (-) TimerEvent: {}
+[128.554846] (-) TimerEvent: {}
+[128.655365] (-) TimerEvent: {}
+[128.755948] (-) TimerEvent: {}
+[128.856176] (-) TimerEvent: {}
+[128.956744] (-) TimerEvent: {}
+[129.056989] (-) TimerEvent: {}
+[129.157582] (-) TimerEvent: {}
+[129.258702] (-) TimerEvent: {}
+[129.360044] (-) TimerEvent: {}
+[129.460437] (-) TimerEvent: {}
+[129.562384] (-) TimerEvent: {}
+[129.662897] (-) TimerEvent: {}
+[129.764932] (-) TimerEvent: {}
+[129.866429] (-) TimerEvent: {}
+[129.967281] (-) TimerEvent: {}
+[130.068701] (-) TimerEvent: {}
+[130.170034] (-) TimerEvent: {}
+[130.271572] (-) TimerEvent: {}
+[130.372742] (-) TimerEvent: {}
+[130.473301] (-) TimerEvent: {}
+[130.574060] (-) TimerEvent: {}
+[130.680986] (-) TimerEvent: {}
+[130.782180] (-) TimerEvent: {}
+[130.882994] (-) TimerEvent: {}
+[130.983942] (-) TimerEvent: {}
+[131.084207] (-) TimerEvent: {}
+[131.184893] (-) TimerEvent: {}
+[131.285208] (-) TimerEvent: {}
+[131.385463] (-) TimerEvent: {}
+[131.485996] (-) TimerEvent: {}
+[131.587097] (-) TimerEvent: {}
+[131.687389] (-) TimerEvent: {}
+[131.787700] (-) TimerEvent: {}
+[131.888191] (-) TimerEvent: {}
+[131.988873] (-) TimerEvent: {}
+[132.089156] (-) TimerEvent: {}
+[132.189746] (-) TimerEvent: {}
+[132.290384] (-) TimerEvent: {}
+[132.391331] (-) TimerEvent: {}
+[132.492403] (-) TimerEvent: {}
+[132.593169] (-) TimerEvent: {}
+[132.693553] (-) TimerEvent: {}
+[132.793979] (-) TimerEvent: {}
+[132.894855] (-) TimerEvent: {}
+[132.996811] (-) TimerEvent: {}
+[133.097487] (-) TimerEvent: {}
+[133.198980] (-) TimerEvent: {}
+[133.299981] (-) TimerEvent: {}
+[133.402389] (-) TimerEvent: {}
+[133.502794] (-) TimerEvent: {}
+[133.606628] (-) TimerEvent: {}
+[133.706972] (-) TimerEvent: {}
+[133.807706] (-) TimerEvent: {}
+[133.908198] (-) TimerEvent: {}
+[134.011086] (-) TimerEvent: {}
+[134.112964] (-) TimerEvent: {}
+[134.214060] (-) TimerEvent: {}
+[134.316252] (-) TimerEvent: {}
+[134.417058] (-) TimerEvent: {}
+[134.969084] (-) TimerEvent: {}
+[135.072161] (-) TimerEvent: {}
+[135.173419] (-) TimerEvent: {}
+[135.285967] (-) TimerEvent: {}
+[135.399352] (-) TimerEvent: {}
+[135.504152] (-) TimerEvent: {}
+[135.605864] (-) TimerEvent: {}
+[135.707977] (-) TimerEvent: {}
+[135.808477] (-) TimerEvent: {}
+[135.910001] (-) TimerEvent: {}
+[136.013572] (-) TimerEvent: {}
+[136.116268] (-) TimerEvent: {}
+[136.217643] (-) TimerEvent: {}
+[136.318390] (-) TimerEvent: {}
+[136.419645] (-) TimerEvent: {}
+[136.520832] (-) TimerEvent: {}
+[136.622463] (-) TimerEvent: {}
+[136.723809] (-) TimerEvent: {}
+[136.827790] (-) TimerEvent: {}
+[136.933943] (-) TimerEvent: {}
+[137.034301] (-) TimerEvent: {}
+[137.135318] (-) TimerEvent: {}
+[137.236896] (-) TimerEvent: {}
+[137.338876] (-) TimerEvent: {}
+[137.439399] (-) TimerEvent: {}
+[137.543048] (-) TimerEvent: {}
+[137.645136] (-) TimerEvent: {}
+[137.745660] (-) TimerEvent: {}
+[137.846125] (-) TimerEvent: {}
+[137.947928] (-) TimerEvent: {}
+[138.050578] (-) TimerEvent: {}
+[138.151225] (-) TimerEvent: {}
+[138.251949] (-) TimerEvent: {}
+[138.353138] (-) TimerEvent: {}
+[138.454054] (-) TimerEvent: {}
+[138.555090] (-) TimerEvent: {}
+[138.658901] (-) TimerEvent: {}
+[138.759640] (-) TimerEvent: {}
+[138.860854] (-) TimerEvent: {}
+[138.961893] (-) TimerEvent: {}
+[139.062728] (-) TimerEvent: {}
+[139.163484] (-) TimerEvent: {}
+[139.264208] (-) TimerEvent: {}
+[139.364643] (-) TimerEvent: {}
+[139.465821] (-) TimerEvent: {}
+[139.567099] (-) TimerEvent: {}
+[139.668791] (-) TimerEvent: {}
+[139.771960] (-) TimerEvent: {}
+[139.873266] (-) TimerEvent: {}
+[139.974158] (-) TimerEvent: {}
+[140.076148] (-) TimerEvent: {}
+[140.178254] (-) TimerEvent: {}
+[140.279095] (-) TimerEvent: {}
+[140.380272] (-) TimerEvent: {}
+[140.481209] (-) TimerEvent: {}
+[140.581747] (-) TimerEvent: {}
+[140.682607] (-) TimerEvent: {}
+[140.783476] (-) TimerEvent: {}
+[140.898983] (-) TimerEvent: {}
+[141.004947] (-) TimerEvent: {}
+[141.105806] (-) TimerEvent: {}
+[141.211822] (-) TimerEvent: {}
+[141.313846] (-) TimerEvent: {}
+[141.414652] (-) TimerEvent: {}
+[141.515262] (-) TimerEvent: {}
+[141.616403] (-) TimerEvent: {}
+[141.717957] (-) TimerEvent: {}
+[141.818612] (-) TimerEvent: {}
+[141.921115] (-) TimerEvent: {}
+[142.021832] (-) TimerEvent: {}
+[142.123468] (-) TimerEvent: {}
+[142.223735] (-) TimerEvent: {}
+[142.324901] (-) TimerEvent: {}
+[142.425838] (-) TimerEvent: {}
+[142.526908] (-) TimerEvent: {}
+[142.627928] (-) TimerEvent: {}
+[142.728272] (-) TimerEvent: {}
+[142.829766] (-) TimerEvent: {}
+[142.930639] (-) TimerEvent: {}
+[143.031384] (-) TimerEvent: {}
+[143.132033] (-) TimerEvent: {}
+[143.232357] (-) TimerEvent: {}
+[143.333412] (-) TimerEvent: {}
+[143.436317] (-) TimerEvent: {}
+[143.537120] (-) TimerEvent: {}
+[143.637906] (-) TimerEvent: {}
+[143.738771] (-) TimerEvent: {}
+[143.839413] (-) TimerEvent: {}
+[143.939696] (-) TimerEvent: {}
+[144.041658] (-) TimerEvent: {}
+[144.143323] (-) TimerEvent: {}
+[144.243684] (-) TimerEvent: {}
+[144.344183] (-) TimerEvent: {}
+[144.444813] (-) TimerEvent: {}
+[144.546136] (-) TimerEvent: {}
+[144.647011] (-) TimerEvent: {}
+[144.747965] (-) TimerEvent: {}
+[144.848300] (-) TimerEvent: {}
+[144.948772] (-) TimerEvent: {}
+[145.049098] (-) TimerEvent: {}
+[145.149853] (-) TimerEvent: {}
+[145.251117] (-) TimerEvent: {}
+[145.352496] (-) TimerEvent: {}
+[145.452948] (-) TimerEvent: {}
+[145.553632] (-) TimerEvent: {}
+[145.655173] (-) TimerEvent: {}
+[145.756431] (-) TimerEvent: {}
+[145.857062] (-) TimerEvent: {}
+[145.957666] (-) TimerEvent: {}
+[146.058260] (-) TimerEvent: {}
+[146.159421] (-) TimerEvent: {}
+[146.260345] (-) TimerEvent: {}
+[146.361105] (-) TimerEvent: {}
+[146.462016] (-) TimerEvent: {}
+[146.562752] (-) TimerEvent: {}
+[146.664215] (-) TimerEvent: {}
+[146.765014] (-) TimerEvent: {}
+[146.866159] (-) TimerEvent: {}
+[146.966981] (-) TimerEvent: {}
+[147.067414] (-) TimerEvent: {}
+[147.169106] (-) TimerEvent: {}
+[147.271713] (-) TimerEvent: {}
+[147.372080] (-) TimerEvent: {}
+[147.472416] (-) TimerEvent: {}
+[147.572772] (-) TimerEvent: {}
+[147.674494] (-) TimerEvent: {}
+[147.774785] (-) TimerEvent: {}
+[147.875329] (-) TimerEvent: {}
+[147.975602] (-) TimerEvent: {}
+[148.075834] (-) TimerEvent: {}
+[148.177132] (-) TimerEvent: {}
+[148.278106] (-) TimerEvent: {}
+[148.379096] (-) TimerEvent: {}
+[148.479400] (-) TimerEvent: {}
+[148.580205] (-) TimerEvent: {}
+[148.681071] (-) TimerEvent: {}
+[148.781481] (-) TimerEvent: {}
+[148.881797] (-) TimerEvent: {}
+[148.982150] (-) TimerEvent: {}
+[149.083665] (-) TimerEvent: {}
+[149.184143] (-) TimerEvent: {}
+[149.285110] (-) TimerEvent: {}
+[149.385843] (-) TimerEvent: {}
+[149.486428] (-) TimerEvent: {}
+[149.586791] (-) TimerEvent: {}
+[149.688734] (-) TimerEvent: {}
+[149.789250] (-) TimerEvent: {}
+[149.889960] (-) TimerEvent: {}
+[149.990959] (-) TimerEvent: {}
+[150.091805] (-) TimerEvent: {}
+[150.193251] (-) TimerEvent: {}
+[150.294257] (-) TimerEvent: {}
+[150.394747] (-) TimerEvent: {}
+[150.495237] (-) TimerEvent: {}
+[150.595874] (-) TimerEvent: {}
+[150.696747] (-) TimerEvent: {}
+[150.796995] (-) TimerEvent: {}
+[150.898176] (-) TimerEvent: {}
+[151.001825] (-) TimerEvent: {}
+[151.102142] (-) TimerEvent: {}
+[151.203107] (-) TimerEvent: {}
+[151.303455] (-) TimerEvent: {}
+[151.403823] (-) TimerEvent: {}
+[151.504205] (-) TimerEvent: {}
+[151.604969] (-) TimerEvent: {}
+[151.705396] (-) TimerEvent: {}
+[151.805783] (-) TimerEvent: {}
+[151.907159] (-) TimerEvent: {}
+[152.009778] (-) TimerEvent: {}
+[152.109993] (-) TimerEvent: {}
+[152.211883] (-) TimerEvent: {}
+[152.313251] (-) TimerEvent: {}
+[152.414015] (-) TimerEvent: {}
+[152.514574] (-) TimerEvent: {}
+[152.615158] (-) TimerEvent: {}
+[152.715724] (-) TimerEvent: {}
+[152.817382] (-) TimerEvent: {}
+[152.919901] (-) TimerEvent: {}
+[153.028976] (-) TimerEvent: {}
+[153.129290] (-) TimerEvent: {}
+[153.230211] (-) TimerEvent: {}
+[153.331125] (-) TimerEvent: {}
+[153.432945] (-) TimerEvent: {}
+[153.533487] (-) TimerEvent: {}
+[153.634313] (-) TimerEvent: {}
+[153.734950] (-) TimerEvent: {}
+[153.837356] (-) TimerEvent: {}
+[153.941556] (-) TimerEvent: {}
+[154.045900] (-) TimerEvent: {}
+[154.147165] (-) TimerEvent: {}
+[154.249379] (-) TimerEvent: {}
+[154.350931] (-) TimerEvent: {}
+[154.452390] (-) TimerEvent: {}
+[154.554121] (-) TimerEvent: {}
+[154.655995] (-) TimerEvent: {}
+[154.756865] (-) TimerEvent: {}
+[154.859052] (-) TimerEvent: {}
+[154.963189] (-) TimerEvent: {}
+[155.066118] (-) TimerEvent: {}
+[155.166978] (-) TimerEvent: {}
+[155.268316] (-) TimerEvent: {}
+[155.369816] (-) TimerEvent: {}
+[155.470407] (-) TimerEvent: {}
+[155.571602] (-) TimerEvent: {}
+[155.671922] (-) TimerEvent: {}
+[155.773461] (-) TimerEvent: {}
+[155.874148] (-) TimerEvent: {}
+[155.975378] (-) TimerEvent: {}
+[156.076890] (-) TimerEvent: {}
+[156.177847] (-) TimerEvent: {}
+[156.278690] (-) TimerEvent: {}
+[156.379585] (-) TimerEvent: {}
+[156.480324] (-) TimerEvent: {}
+[156.581262] (-) TimerEvent: {}
+[156.681547] (-) TimerEvent: {}
+[156.782370] (-) TimerEvent: {}
+[156.883330] (-) TimerEvent: {}
+[156.983810] (-) TimerEvent: {}
+[157.084174] (-) TimerEvent: {}
+[157.184448] (-) TimerEvent: {}
+[157.284874] (-) TimerEvent: {}
+[157.385843] (-) TimerEvent: {}
+[157.487887] (-) TimerEvent: {}
+[157.588908] (-) TimerEvent: {}
+[157.689277] (-) TimerEvent: {}
+[157.789928] (-) TimerEvent: {}
+[157.890671] (-) TimerEvent: {}
+[157.991470] (-) TimerEvent: {}
+[158.092058] (-) TimerEvent: {}
+[158.193550] (-) TimerEvent: {}
+[158.293850] (-) TimerEvent: {}
+[158.394345] (-) TimerEvent: {}
+[158.494913] (-) TimerEvent: {}
+[158.596215] (-) TimerEvent: {}
+[158.697171] (-) TimerEvent: {}
+[158.797946] (-) TimerEvent: {}
+[158.898651] (-) TimerEvent: {}
+[158.999657] (-) TimerEvent: {}
+[159.100379] (-) TimerEvent: {}
+[159.201305] (-) TimerEvent: {}
+[159.301996] (-) TimerEvent: {}
+[159.402833] (-) TimerEvent: {}
+[159.504056] (-) TimerEvent: {}
+[159.604586] (-) TimerEvent: {}
+[159.705177] (-) TimerEvent: {}
+[159.809163] (-) TimerEvent: {}
+[159.911004] (-) TimerEvent: {}
+[160.013190] (-) TimerEvent: {}
+[160.114630] (-) TimerEvent: {}
+[160.214915] (-) TimerEvent: {}
+[160.316121] (-) TimerEvent: {}
+[160.416592] (-) TimerEvent: {}
+[160.517815] (-) TimerEvent: {}
+[160.618262] (-) TimerEvent: {}
+[160.718909] (-) TimerEvent: {}
+[160.819857] (-) TimerEvent: {}
+[160.920352] (-) TimerEvent: {}
+[161.020766] (-) TimerEvent: {}
+[161.121650] (-) TimerEvent: {}
+[161.222253] (-) TimerEvent: {}
+[161.323289] (-) TimerEvent: {}
+[161.424278] (-) TimerEvent: {}
+[161.525783] (-) TimerEvent: {}
+[161.626799] (-) TimerEvent: {}
+[161.727386] (-) TimerEvent: {}
+[161.828604] (-) TimerEvent: {}
+[161.929630] (-) TimerEvent: {}
+[162.029956] (-) TimerEvent: {}
+[162.130776] (-) TimerEvent: {}
+[162.231356] (-) TimerEvent: {}
+[162.332494] (-) TimerEvent: {}
+[162.434074] (-) TimerEvent: {}
+[162.534823] (-) TimerEvent: {}
+[162.636385] (-) TimerEvent: {}
+[162.738360] (-) TimerEvent: {}
+[162.839301] (-) TimerEvent: {}
+[162.941527] (-) TimerEvent: {}
+[163.043026] (-) TimerEvent: {}
+[163.143343] (-) TimerEvent: {}
+[163.243839] (-) TimerEvent: {}
+[163.345208] (-) TimerEvent: {}
+[163.449108] (-) TimerEvent: {}
+[163.557700] (-) TimerEvent: {}
+[163.658467] (-) TimerEvent: {}
+[163.760437] (-) TimerEvent: {}
+[163.865057] (-) TimerEvent: {}
+[163.967450] (-) TimerEvent: {}
+[164.070833] (-) TimerEvent: {}
+[164.171659] (-) TimerEvent: {}
+[164.272296] (-) TimerEvent: {}
+[164.375192] (-) TimerEvent: {}
+[164.476907] (-) TimerEvent: {}
+[164.579491] (-) TimerEvent: {}
+[164.680239] (-) TimerEvent: {}
+[164.781224] (-) TimerEvent: {}
+[164.882655] (-) TimerEvent: {}
+[164.983056] (-) TimerEvent: {}
+[165.084043] (-) TimerEvent: {}
+[165.187186] (-) TimerEvent: {}
+[165.288352] (-) TimerEvent: {}
+[165.392002] (-) TimerEvent: {}
+[165.495742] (-) TimerEvent: {}
+[165.598141] (-) TimerEvent: {}
+[165.699195] (-) TimerEvent: {}
+[165.811026] (-) TimerEvent: {}
+[165.911895] (-) TimerEvent: {}
+[166.012248] (-) TimerEvent: {}
+[166.113635] (-) TimerEvent: {}
+[166.214989] (-) TimerEvent: {}
+[166.315909] (-) TimerEvent: {}
+[166.418726] (-) TimerEvent: {}
+[166.519902] (-) TimerEvent: {}
+[166.621273] (-) TimerEvent: {}
+[166.724484] (-) TimerEvent: {}
+[166.828143] (-) TimerEvent: {}
+[166.930435] (-) TimerEvent: {}
+[167.032833] (-) TimerEvent: {}
+[167.133290] (-) TimerEvent: {}
+[167.233968] (-) TimerEvent: {}
+[167.334347] (-) TimerEvent: {}
+[167.434743] (-) TimerEvent: {}
+[167.535311] (-) TimerEvent: {}
+[167.636799] (-) TimerEvent: {}
+[167.739036] (-) TimerEvent: {}
+[167.840123] (-) TimerEvent: {}
+[167.941928] (-) TimerEvent: {}
+[168.065794] (-) TimerEvent: {}
+[168.178964] (-) TimerEvent: {}
+[168.282075] (-) TimerEvent: {}
+[168.387920] (-) TimerEvent: {}
+[168.492199] (-) TimerEvent: {}
+[168.612211] (-) TimerEvent: {}
+[168.723234] (-) TimerEvent: {}
+[168.833238] (-) TimerEvent: {}
+[168.937870] (-) TimerEvent: {}
+[169.039341] (-) TimerEvent: {}
+[169.144336] (-) TimerEvent: {}
+[169.245005] (-) TimerEvent: {}
+[169.348801] (-) TimerEvent: {}
+[169.449915] (-) TimerEvent: {}
+[169.550171] (-) TimerEvent: {}
+[169.651089] (-) TimerEvent: {}
+[169.752095] (-) TimerEvent: {}
+[169.854662] (-) TimerEvent: {}
+[169.955786] (-) TimerEvent: {}
+[170.056806] (-) TimerEvent: {}
+[170.158047] (-) TimerEvent: {}
+[170.258699] (-) TimerEvent: {}
+[170.359794] (-) TimerEvent: {}
+[170.460339] (-) TimerEvent: {}
+[170.561379] (-) TimerEvent: {}
+[170.662801] (-) TimerEvent: {}
+[170.763374] (-) TimerEvent: {}
+[170.863749] (-) TimerEvent: {}
+[170.964705] (-) TimerEvent: {}
+[171.065033] (-) TimerEvent: {}
+[171.165689] (-) TimerEvent: {}
+[171.266077] (-) TimerEvent: {}
+[171.367438] (-) TimerEvent: {}
+[171.468745] (-) TimerEvent: {}
+[171.569863] (-) TimerEvent: {}
+[171.671047] (-) TimerEvent: {}
+[171.771866] (-) TimerEvent: {}
+[171.872436] (-) TimerEvent: {}
+[171.977813] (-) TimerEvent: {}
+[172.082694] (-) TimerEvent: {}
+[172.183138] (-) TimerEvent: {}
+[172.283486] (-) TimerEvent: {}
+[172.387993] (-) TimerEvent: {}
+[172.492728] (-) TimerEvent: {}
+[172.597091] (-) TimerEvent: {}
+[172.697424] (-) TimerEvent: {}
+[172.775684] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable publisher_lambda\x1b[0m\n'}
+[172.897467] (-) TimerEvent: {}
+[172.998147] (-) TimerEvent: {}
+[173.100631] (-) TimerEvent: {}
+[173.202022] (-) TimerEvent: {}
+[173.302935] (-) TimerEvent: {}
+[173.364442] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 58%] Built target publisher_lambda\n'}
+[173.403260] (-) TimerEvent: {}
+[173.504473] (-) TimerEvent: {}
+[173.605218] (-) TimerEvent: {}
+[173.706273] (-) TimerEvent: {}
+[173.807152] (-) TimerEvent: {}
+[173.907858] (-) TimerEvent: {}
+[174.008202] (-) TimerEvent: {}
+[174.109791] (-) TimerEvent: {}
+[174.212325] (-) TimerEvent: {}
+[174.259656] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable publisher_not_composable\x1b[0m\n'}
+[174.313002] (-) TimerEvent: {}
+[174.372378] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 66%] Built target publisher_not_composable\n'}
+[174.413648] (-) TimerEvent: {}
+[174.514496] (-) TimerEvent: {}
+[174.615750] (-) TimerEvent: {}
+[174.716140] (-) TimerEvent: {}
+[174.816676] (-) TimerEvent: {}
+[174.917749] (-) TimerEvent: {}
+[175.018928] (-) TimerEvent: {}
+[175.119713] (-) TimerEvent: {}
+[175.220281] (-) TimerEvent: {}
+[175.320624] (-) TimerEvent: {}
+[175.421815] (-) TimerEvent: {}
+[175.522785] (-) TimerEvent: {}
+[175.576764] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_wait_for_all_acked\x1b[0m\n'}
+[175.623737] (-) TimerEvent: {}
+[175.671631] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable publisher_member_function_with_type_adapter\x1b[0m\n'}
+[175.700771] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 83%] Built target publisher_wait_for_all_acked\n'}
+[175.724043] (-) TimerEvent: {}
+[175.780461] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 83%] Built target publisher_member_function_with_type_adapter\n'}
+[175.824484] (-) TimerEvent: {}
+[175.925199] (-) TimerEvent: {}
+[176.025780] (-) TimerEvent: {}
+[176.126296] (-) TimerEvent: {}
+[176.226813] (-) TimerEvent: {}
+[176.327187] (-) TimerEvent: {}
+[176.428282] (-) TimerEvent: {}
+[176.528646] (-) TimerEvent: {}
+[176.629354] (-) TimerEvent: {}
+[176.730203] (-) TimerEvent: {}
+[176.830933] (-) TimerEvent: {}
+[176.931770] (-) TimerEvent: {}
+[177.032231] (-) TimerEvent: {}
+[177.132780] (-) TimerEvent: {}
+[177.233411] (-) TimerEvent: {}
+[177.334048] (-) TimerEvent: {}
+[177.435075] (-) TimerEvent: {}
+[177.535803] (-) TimerEvent: {}
+[177.636415] (-) TimerEvent: {}
+[177.737258] (-) TimerEvent: {}
+[177.838159] (-) TimerEvent: {}
+[177.939268] (-) TimerEvent: {}
+[178.039748] (-) TimerEvent: {}
+[178.140434] (-) TimerEvent: {}
+[178.240913] (-) TimerEvent: {}
+[178.341643] (-) TimerEvent: {}
+[178.442075] (-) TimerEvent: {}
+[178.542721] (-) TimerEvent: {}
+[178.643409] (-) TimerEvent: {}
+[178.744282] (-) TimerEvent: {}
+[178.844953] (-) TimerEvent: {}
+[178.945446] (-) TimerEvent: {}
+[179.046227] (-) TimerEvent: {}
+[179.146675] (-) TimerEvent: {}
+[179.247170] (-) TimerEvent: {}
+[179.347974] (-) TimerEvent: {}
+[179.448339] (-) TimerEvent: {}
+[179.549635] (-) TimerEvent: {}
+[179.650317] (-) TimerEvent: {}
+[179.751440] (-) TimerEvent: {}
+[179.851937] (-) TimerEvent: {}
+[179.952564] (-) TimerEvent: {}
+[180.054867] (-) TimerEvent: {}
+[180.156150] (-) TimerEvent: {}
+[180.257061] (-) TimerEvent: {}
+[180.358219] (-) TimerEvent: {}
+[180.458816] (-) TimerEvent: {}
+[180.559472] (-) TimerEvent: {}
+[180.660245] (-) TimerEvent: {}
+[180.761037] (-) TimerEvent: {}
+[180.863175] (-) TimerEvent: {}
+[180.963808] (-) TimerEvent: {}
+[181.064400] (-) TimerEvent: {}
+[181.165242] (-) TimerEvent: {}
+[181.265999] (-) TimerEvent: {}
+[181.366648] (-) TimerEvent: {}
+[181.467101] (-) TimerEvent: {}
+[181.567868] (-) TimerEvent: {}
+[181.668276] (-) TimerEvent: {}
+[181.768670] (-) TimerEvent: {}
+[181.869217] (-) TimerEvent: {}
+[181.969793] (-) TimerEvent: {}
+[182.070448] (-) TimerEvent: {}
+[182.171244] (-) TimerEvent: {}
+[182.272259] (-) TimerEvent: {}
+[182.373036] (-) TimerEvent: {}
+[182.473820] (-) TimerEvent: {}
+[182.574719] (-) TimerEvent: {}
+[182.675239] (-) TimerEvent: {}
+[182.775832] (-) TimerEvent: {}
+[182.877234] (-) TimerEvent: {}
+[182.978926] (-) TimerEvent: {}
+[183.082106] (-) TimerEvent: {}
+[183.182660] (-) TimerEvent: {}
+[183.283195] (-) TimerEvent: {}
+[183.383620] (-) TimerEvent: {}
+[183.484047] (-) TimerEvent: {}
+[183.584971] (-) TimerEvent: {}
+[183.685553] (-) TimerEvent: {}
+[183.785876] (-) TimerEvent: {}
+[183.886377] (-) TimerEvent: {}
+[183.986889] (-) TimerEvent: {}
+[184.087200] (-) TimerEvent: {}
+[184.187764] (-) TimerEvent: {}
+[184.288195] (-) TimerEvent: {}
+[184.388658] (-) TimerEvent: {}
+[184.491342] (-) TimerEvent: {}
+[184.592617] (-) TimerEvent: {}
+[184.694365] (-) TimerEvent: {}
+[184.798480] (-) TimerEvent: {}
+[184.901278] (-) TimerEvent: {}
+[185.003744] (-) TimerEvent: {}
+[185.104219] (-) TimerEvent: {}
+[185.204696] (-) TimerEvent: {}
+[185.305073] (-) TimerEvent: {}
+[185.410337] (-) TimerEvent: {}
+[185.511460] (-) TimerEvent: {}
+[185.613933] (-) TimerEvent: {}
+[185.717836] (-) TimerEvent: {}
+[185.822722] (-) TimerEvent: {}
+[185.929256] (-) TimerEvent: {}
+[186.032287] (-) TimerEvent: {}
+[186.132789] (-) TimerEvent: {}
+[186.233246] (-) TimerEvent: {}
+[186.334065] (-) TimerEvent: {}
+[186.434399] (-) TimerEvent: {}
+[186.535015] (-) TimerEvent: {}
+[186.635635] (-) TimerEvent: {}
+[186.653654] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX executable subscriber_not_composable\x1b[0m\n'}
+[186.660603] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints\x1b[0m\n'}
+[186.735786] (-) TimerEvent: {}
+[186.837139] (-) TimerEvent: {}
+[186.939975] (-) TimerEvent: {}
+[186.966037] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'[ 91%] Built target publisher_member_function_with_unique_network_flow_endpoints\n'}
+[186.985955] (examples_rclcpp_minimal_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[187.014944] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 29%] Built target subscriber_not_composable\n'}
+[187.040225] (-) TimerEvent: {}
+[187.142871] (-) TimerEvent: {}
+[187.182993] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 'SIGINT'}
+[187.243091] (-) TimerEvent: {}
+[187.344112] (-) TimerEvent: {}
+[187.444440] (-) TimerEvent: {}
+[187.545729] (-) TimerEvent: {}
+[187.552012] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable action_client_member_functions\x1b[0m\n'}
+[187.645895] (-) TimerEvent: {}
+[187.747168] (-) TimerEvent: {}
+[187.752799] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'[ 87%] Built target action_client_member_functions\n'}
+[187.788753] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[187.848108] (-) TimerEvent: {}
+[187.900274] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 'SIGINT'}
+[187.948165] (-) TimerEvent: {}
+[188.048653] (-) TimerEvent: {}
+[188.148956] (-) TimerEvent: {}
+[188.249370] (-) TimerEvent: {}
+[188.349830] (-) TimerEvent: {}
+[188.450268] (-) TimerEvent: {}
+[188.550640] (-) TimerEvent: {}
+[188.650995] (-) TimerEvent: {}
+[188.662062] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints\x1b[0m\n'}
+[188.751616] (-) TimerEvent: {}
+[188.852672] (-) TimerEvent: {}
+[188.883353] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 33%] Built target subscriber_member_function_with_unique_network_flow_endpoints\n'}
+[188.952711] (-) TimerEvent: {}
+[189.053138] (-) TimerEvent: {}
+[189.153449] (-) TimerEvent: {}
+[189.253824] (-) TimerEvent: {}
+[189.354082] (-) TimerEvent: {}
+[189.454328] (-) TimerEvent: {}
+[189.554641] (-) TimerEvent: {}
+[189.654957] (-) TimerEvent: {}
+[189.755349] (-) TimerEvent: {}
+[189.855707] (-) TimerEvent: {}
+[189.956260] (-) TimerEvent: {}
+[190.020248] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ping_pong\x1b[0m\n'}
+[190.056385] (-) TimerEvent: {}
+[190.157581] (-) TimerEvent: {}
+[190.259476] (-) TimerEvent: {}
+[190.296596] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'[100%] Built target ping_pong\n'}
+[190.359811] (-) TimerEvent: {}
+[190.370568] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 'SIGINT'}
+[190.460685] (-) TimerEvent: {}
+[190.560992] (-) TimerEvent: {}
+[190.661282] (-) TimerEvent: {}
+[190.761619] (-) TimerEvent: {}
+[190.861857] (-) TimerEvent: {}
+[190.962654] (-) TimerEvent: {}
+[190.984292] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function\x1b[0m\n'}
+[191.063481] (-) TimerEvent: {}
+[191.100058] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function_with_type_adapter\x1b[0m\n'}
+[191.137707] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 41%] Built target subscriber_member_function\n'}
+[191.163632] (-) TimerEvent: {}
+[191.214988] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable subscriber_lambda\x1b[0m\n'}
+[191.263762] (-) TimerEvent: {}
+[191.304378] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 45%] Built target subscriber_member_function_with_type_adapter\n'}
+[191.363871] (-) TimerEvent: {}
+[191.368306] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 45%] Built target subscriber_lambda\n'}
+[191.468604] (-) TimerEvent: {}
+[191.569542] (-) TimerEvent: {}
+[191.674396] (-) TimerEvent: {}
+[191.779324] (-) TimerEvent: {}
+[191.882129] (-) TimerEvent: {}
+[191.986198] (-) TimerEvent: {}
+[192.086407] (-) TimerEvent: {}
+[192.187041] (-) TimerEvent: {}
+[192.291926] (-) TimerEvent: {}
+[192.396823] (-) TimerEvent: {}
+[192.466633] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable subscriber_member_function_with_topic_statistics\x1b[0m\n'}
+[192.496930] (-) TimerEvent: {}
+[192.587382] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 50%] Built target subscriber_member_function_with_topic_statistics\n'}
+[192.597033] (-) TimerEvent: {}
+[192.608998] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[192.697137] (-) TimerEvent: {}
+[192.797383] (-) TimerEvent: {}
+[192.898148] (-) TimerEvent: {}
+[192.998369] (-) TimerEvent: {}
+[193.099124] (-) TimerEvent: {}
+[193.199361] (-) TimerEvent: {}
+[193.299993] (-) TimerEvent: {}
+[193.400249] (-) TimerEvent: {}
+[193.500530] (-) TimerEvent: {}
+[193.600765] (-) TimerEvent: {}
+[193.701558] (-) TimerEvent: {}
+[193.801787] (-) TimerEvent: {}
+[193.901849] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable time_triggered_wait_set_subscriber\x1b[0m\n'}
+[193.902175] (-) TimerEvent: {}
+[193.962762] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 58%] Built target time_triggered_wait_set_subscriber\n'}
+[193.975762] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[194.002269] (-) TimerEvent: {}
+[194.102490] (-) TimerEvent: {}
+[194.202850] (-) TimerEvent: {}
+[194.303991] (-) TimerEvent: {}
+[194.404260] (-) TimerEvent: {}
+[194.506639] (-) TimerEvent: {}
+[194.608456] (-) TimerEvent: {}
+[194.712300] (-) TimerEvent: {}
+[194.817230] (-) TimerEvent: {}
+[194.921103] (-) TimerEvent: {}
+[195.024008] (-) TimerEvent: {}
+[195.127905] (-) TimerEvent: {}
+[195.228213] (-) TimerEvent: {}
+[195.297011] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable static_wait_set_subscriber\x1b[0m\n'}
+[195.328322] (-) TimerEvent: {}
+[195.365721] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 66%] Built target static_wait_set_subscriber\n'}
+[195.376129] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[195.433132] (-) TimerEvent: {}
+[195.534674] (-) TimerEvent: {}
+[195.635084] (-) TimerEvent: {}
+[195.735405] (-) TimerEvent: {}
+[195.836227] (-) TimerEvent: {}
+[195.936565] (-) TimerEvent: {}
+[196.040303] (-) TimerEvent: {}
+[196.144161] (-) TimerEvent: {}
+[196.246001] (-) TimerEvent: {}
+[196.350893] (-) TimerEvent: {}
+[196.454066] (-) TimerEvent: {}
+[196.555393] (-) TimerEvent: {}
+[196.560475] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable wait_set_subscriber\x1b[0m\n'}
+[196.610763] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 75%] Built target wait_set_subscriber\n'}
+[196.627305] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o\x1b[0m\n'}
+[196.655603] (-) TimerEvent: {}
+[196.755856] (-) TimerEvent: {}
+[196.860365] (-) TimerEvent: {}
+[196.964172] (-) TimerEvent: {}
+[197.068819] (-) TimerEvent: {}
+[197.172942] (-) TimerEvent: {}
+[197.275043] (-) TimerEvent: {}
+[197.377723] (-) TimerEvent: {}
+[197.481143] (-) TimerEvent: {}
+[197.583775] (-) TimerEvent: {}
+[197.686015] (-) TimerEvent: {}
+[197.788055] (-) TimerEvent: {}
+[197.888693] (-) TimerEvent: {}
+[197.989210] (-) TimerEvent: {}
+[198.092297] (-) TimerEvent: {}
+[198.193110] (-) TimerEvent: {}
+[198.293332] (-) TimerEvent: {}
+[198.393563] (-) TimerEvent: {}
+[198.493803] (-) TimerEvent: {}
+[198.594606] (-) TimerEvent: {}
+[198.694827] (-) TimerEvent: {}
+[198.795046] (-) TimerEvent: {}
+[198.895258] (-) TimerEvent: {}
+[198.995464] (-) TimerEvent: {}
+[199.095702] (-) TimerEvent: {}
+[199.197054] (-) TimerEvent: {}
+[199.298570] (-) TimerEvent: {}
+[199.398787] (-) TimerEvent: {}
+[199.499000] (-) TimerEvent: {}
+[199.599208] (-) TimerEvent: {}
+[199.700074] (-) TimerEvent: {}
+[199.800305] (-) TimerEvent: {}
+[199.900871] (-) TimerEvent: {}
+[200.001547] (-) TimerEvent: {}
+[200.101786] (-) TimerEvent: {}
+[200.112164] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[200.203965] (-) TimerEvent: {}
+[200.304229] (-) TimerEvent: {}
+[200.404453] (-) TimerEvent: {}
+[200.505599] (-) TimerEvent: {}
+[200.605815] (-) TimerEvent: {}
+[200.707979] (-) TimerEvent: {}
+[200.810957] (-) TimerEvent: {}
+[200.911195] (-) TimerEvent: {}
+[201.013712] (-) TimerEvent: {}
+[201.114798] (-) TimerEvent: {}
+[201.215008] (-) TimerEvent: {}
+[201.315225] (-) TimerEvent: {}
+[201.415810] (-) TimerEvent: {}
+[201.516030] (-) TimerEvent: {}
+[201.616241] (-) TimerEvent: {}
+[201.716450] (-) TimerEvent: {}
+[201.816686] (-) TimerEvent: {}
+[201.916883] (-) TimerEvent: {}
+[202.017061] (-) TimerEvent: {}
+[202.117269] (-) TimerEvent: {}
+[202.217477] (-) TimerEvent: {}
+[202.317733] (-) TimerEvent: {}
+[202.417932] (-) TimerEvent: {}
+[202.518130] (-) TimerEvent: {}
+[202.619198] (-) TimerEvent: {}
+[202.719638] (-) TimerEvent: {}
+[202.819970] (-) TimerEvent: {}
+[202.920189] (-) TimerEvent: {}
+[202.962683] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o\x1b[0m\n'}
+[203.023682] (-) TimerEvent: {}
+[203.127457] (-) TimerEvent: {}
+[203.231554] (-) TimerEvent: {}
+[203.335536] (-) TimerEvent: {}
+[203.439425] (-) TimerEvent: {}
+[203.544209] (-) TimerEvent: {}
+[203.648250] (-) TimerEvent: {}
+[203.751869] (-) TimerEvent: {}
+[203.855790] (-) TimerEvent: {}
+[203.959632] (-) TimerEvent: {}
+[204.063396] (-) TimerEvent: {}
+[204.164953] (-) TimerEvent: {}
+[204.268952] (-) TimerEvent: {}
+[204.369595] (-) TimerEvent: {}
+[204.473910] (-) TimerEvent: {}
+[204.576321] (-) TimerEvent: {}
+[204.681164] (-) TimerEvent: {}
+[204.784582] (-) TimerEvent: {}
+[204.888494] (-) TimerEvent: {}
+[204.989373] (-) TimerEvent: {}
+[205.093199] (-) TimerEvent: {}
+[205.193609] (-) TimerEvent: {}
+[205.293857] (-) TimerEvent: {}
+[205.394670] (-) TimerEvent: {}
+[205.498783] (-) TimerEvent: {}
+[205.599103] (-) TimerEvent: {}
+[205.634918] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libwait_set_subscriber_library.so\x1b[0m\n'}
+[205.699203] (-) TimerEvent: {}
+[205.799906] (-) TimerEvent: {}
+[205.864806] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 91%] Built target wait_set_subscriber_library\n'}
+[205.875929] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o\x1b[0m\n'}
+[205.900025] (-) TimerEvent: {}
+[206.001029] (-) TimerEvent: {}
+[206.103986] (-) TimerEvent: {}
+[206.205588] (-) TimerEvent: {}
+[206.308004] (-) TimerEvent: {}
+[206.408647] (-) TimerEvent: {}
+[206.512973] (-) TimerEvent: {}
+[206.616742] (-) TimerEvent: {}
+[206.718418] (-) TimerEvent: {}
+[206.822804] (-) TimerEvent: {}
+[206.926963] (-) TimerEvent: {}
+[207.028022] (-) TimerEvent: {}
+[207.132640] (-) TimerEvent: {}
+[207.237282] (-) TimerEvent: {}
+[207.340008] (-) TimerEvent: {}
+[207.443605] (-) TimerEvent: {}
+[207.547546] (-) TimerEvent: {}
+[207.651347] (-) TimerEvent: {}
+[207.755929] (-) TimerEvent: {}
+[207.858226] (-) TimerEvent: {}
+[207.960280] (-) TimerEvent: {}
+[208.064379] (-) TimerEvent: {}
+[208.165971] (-) TimerEvent: {}
+[208.268217] (-) TimerEvent: {}
+[208.368614] (-) TimerEvent: {}
+[208.377902] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_content_filtering\x1b[0m\n'}
+[208.468736] (-) TimerEvent: {}
+[208.494613] (examples_rclcpp_minimal_subscriber) StdoutLine: {'line': b'[100%] Built target subscriber_content_filtering\n'}
+[208.554155] (examples_rclcpp_minimal_subscriber) JobEnded: {'identifier': 'examples_rclcpp_minimal_subscriber', 'rc': 'SIGINT'}
+[208.574033] (-) TimerEvent: {}
+[208.612407] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[208.612597] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[208.612615] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[208.612622] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[208.613253] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[208.613275] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[208.613285] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[208.613295] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[208.613299] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[208.613658] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[208.613726] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[208.613732] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[208.613736] (turtlesim) JobSkipped: {'identifier': 'turtlesim'}
+[208.613900] (-) EventReactorShutdown: {}

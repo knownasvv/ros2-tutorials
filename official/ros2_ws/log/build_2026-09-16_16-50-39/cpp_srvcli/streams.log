@@ -1,0 +1,15 @@
+[0.009s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/cpp_srvcli -- -j6 -l6
+[0.043s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.155s] [01m[K/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.155s] [01m[K/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:43:15:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[1.155s]    43 |     if (rclcpp[01;31m[K:[m[Kspin_until_future_complete(node, result) == rclcpp::FutureReturnCode::SUCCESS) {
+[1.155s]       |               [01;31m[K^[m[K
+[1.155s]       |               [32m[K::[m[K
+[1.637s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[1.637s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.637s] gmake[1]: *** Waiting for unfinished jobs....
+[1.788s] [ 75%] [32m[1mLinking CXX executable server[0m
+[1.931s] [ 75%] Built target server
+[1.932s] gmake: *** [Makefile:146: all] Error 2
+[1.934s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/cpp_srvcli -- -j6 -l6

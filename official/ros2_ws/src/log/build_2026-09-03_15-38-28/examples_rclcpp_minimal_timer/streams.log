@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer
+[96.177s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[96.185s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[96.185s]   has asked CMake to find a package configuration file provided by
+[96.185s]   "ament_cmake", but CMake did not find one.
+[96.186s] 
+[96.186s]   Could not find a package configuration file provided by "ament_cmake" with
+[96.186s]   any of the following names:
+[96.194s] 
+[96.201s]     ament_cmakeConfig.cmake
+[96.201s]     ament_cmake-config.cmake
+[96.201s] 
+[96.201s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[96.201s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[96.201s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[96.201s]   has been installed.
+[96.201s] 
+[96.201s] [0m
+[96.203s] -- The C compiler identification is GNU 13.3.0
+[96.211s] -- The CXX compiler identification is GNU 13.3.0
+[96.212s] -- Detecting C compiler ABI info
+[96.212s] -- Detecting C compiler ABI info - done
+[96.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[96.212s] -- Detecting C compile features
+[96.212s] -- Detecting C compile features - done
+[96.212s] -- Detecting CXX compiler ABI info
+[96.212s] -- Detecting CXX compiler ABI info - done
+[96.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[96.212s] -- Detecting CXX compile features
+[96.212s] -- Detecting CXX compile features - done
+[96.212s] -- Configuring incomplete, errors occurred!
+[96.515s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_timer' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DCMAKE_INSTALL_PREFIX=/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/install/examples_rclcpp_minimal_timer

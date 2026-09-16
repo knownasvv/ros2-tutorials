@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j6 -l6
+[0.038s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.346s] Traceback (most recent call last):
+[1.347s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.347s]     from ament_package.templates import get_environment_hook_template_path
+[1.347s] ModuleNotFoundError: No module named 'ament_package'
+[1.381s] -- Configuring incomplete, errors occurred!
+[1.381s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.381s]   execute_process(/usr/bin/python3
+[1.381s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.381s]   /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_action_client/ament_cmake_package_templates/templates.cmake)
+[1.381s]   returned error code 1
+[1.381s] Call Stack (most recent call first):
+[1.381s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.381s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.381s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.381s]   CMakeLists.txt:14 (find_package)
+[1.381s] 
+[1.381s] [0m
+[1.381s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1

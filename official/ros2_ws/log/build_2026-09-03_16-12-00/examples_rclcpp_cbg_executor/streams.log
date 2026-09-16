@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.144s] [ 30%] Built target pong
+[0.147s] [ 70%] Built target ping_pong
+[0.148s] [100%] Built target ping
+[0.168s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor -- -j6 -l6
+[0.170s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.177s] -- Install configuration: "Debug"
+[0.177s] -- Execute custom install script
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.180s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.181s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.181s] -- Symlinking: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.185s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.186s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.186s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.186s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.186s] -- Up-to-date symlink: /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.208s] Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_cbg_executor

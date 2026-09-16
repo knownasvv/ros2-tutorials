@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/src/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[0.079s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[0.101s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[0.101s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[0.101s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[76.345s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[76.351s] compilation terminated.
+[76.351s] gmake[2]: *** [CMakeFiles/publisher_member_function.dir/build.make:76: CMakeFiles/publisher_member_function.dir/member_function.cpp.o] Error 1
+[76.355s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/publisher_member_function.dir/all] Error 2
+[76.364s] gmake[1]: *** Waiting for unfinished jobs....
+[172.694s] [ 58%] [32m[1mLinking CXX executable publisher_lambda[0m
+[173.185s] [ 58%] Built target publisher_lambda
+[174.079s] [ 66%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[174.192s] [ 66%] Built target publisher_not_composable
+[175.397s] [ 75%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[175.492s] [ 83%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[175.520s] [ 83%] Built target publisher_wait_for_all_acked
+[175.600s] [ 83%] Built target publisher_member_function_with_type_adapter
+[186.482s] [ 91%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[186.786s] [ 91%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[186.807s] gmake: *** [Makefile:146: all] Error 2
