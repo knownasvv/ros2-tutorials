@@ -1,2 +1,0 @@
-Invoking command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_timer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
-Invoked command in '/home/vaemini/Documents/ros2/docs/tutorials/official/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
